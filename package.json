@@ -1,0 +1,12 @@
+{
+  "name": "recycling-mock-api",
+  "version": "1.0.0",
+  "description": "Mock API for Recycling App",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --host 0.0.0.0 --port 10000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
