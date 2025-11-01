@@ -1,0 +1,162 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Yasmine",
+      "email": "yasmine@example.com",
+      "phone": "+213660000001",
+      "profilePic": "https://i.pravatar.cc/150?img=1",
+      "locations": [
+        { "id": 1, "label": "Home", "lat": 36.7529, "lng": 3.0420 },
+        { "id": 2, "label": "Work", "lat": 36.7545, "lng": 3.0600 }
+      ],
+      "bins": [1, 2, 3],
+      "pickups": [1, 2],
+      "points": [
+        {
+          "id": 1,
+          "type": "weekly_bin",
+          "value": 30,
+          "source": "bin_pickup",
+          "date": "2025-10-20T10:00:00Z"
+        },
+        {
+          "id": 2,
+          "type": "bonus",
+          "value": 10,
+          "source": "ad_watch",
+          "date": "2025-10-22T16:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Amir",
+      "email": "amir@example.com",
+      "phone": "+213660000002",
+      "profilePic": "https://i.pravatar.cc/150?img=2",
+      "locations": [
+        { "id": 1, "label": "Home", "lat": 36.7630, "lng": 3.0500 }
+      ],
+      "bins": [4, 5],
+      "pickups": [3],
+      "points": [
+        {
+          "id": 1,
+          "type": "weekly_bin",
+          "value": 20,
+          "source": "bin_pickup",
+          "date": "2025-10-18T08:00:00Z"
+        }
+      ]
+    }
+  ],
+
+  "bins": [
+    {
+      "id": 1,
+      "type": "plastic",
+      "capacity": 100,
+      "fillPercent": 80,
+      "location": { "lat": 36.7521, "lng": 3.0422 },
+      "status": "ready_for_pickup"
+    },
+    {
+      "id": 2,
+      "type": "glass",
+      "capacity": 80,
+      "fillPercent": 50,
+      "location": { "lat": 36.7530, "lng": 3.0410 },
+      "status": "normal"
+    },
+    {
+      "id": 3,
+      "type": "paper",
+      "capacity": 60,
+      "fillPercent": 90,
+      "location": { "lat": 36.7540, "lng": 3.0430 },
+      "status": "ready_for_pickup"
+    },
+    {
+      "id": 4,
+      "type": "plastic",
+      "capacity": 100,
+      "fillPercent": 40,
+      "location": { "lat": 36.7640, "lng": 3.0510 },
+      "status": "normal"
+    },
+    {
+      "id": 5,
+      "type": "paper",
+      "capacity": 70,
+      "fillPercent": 65,
+      "location": { "lat": 36.7650, "lng": 3.0520 },
+      "status": "normal"
+    }
+  ],
+
+  "pickups": [
+    {
+      "id": 1,
+      "userId": 1,
+      "binId": 1,
+      "status": "scheduled",
+      "scheduledDate": "2025-10-30T10:00:00Z",
+      "picker": null,
+      "weightKg": 0
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "binId": 3,
+      "status": "done",
+      "scheduledDate": "2025-10-20T09:00:00Z",
+      "picker": {
+        "id": 10,
+        "name": "Ali Ben",
+        "phone": "+213660000010"
+      },
+      "weightKg": 12
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "binId": 4,
+      "status": "in_progress",
+      "scheduledDate": "2025-10-29T14:00:00Z",
+      "picker": {
+        "id": 11,
+        "name": "Rania",
+        "phone": "+213660000011"
+      },
+      "weightKg": 0
+    }
+  ],
+
+  "pointsHistory": [
+    {
+      "id": 1,
+      "userId": 1,
+      "value": 30,
+      "type": "weekly_bin",
+      "source": "bin_pickup",
+      "date": "2025-10-20T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "value": 10,
+      "type": "bonus",
+      "source": "ad_watch",
+      "date": "2025-10-22T16:00:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "value": 20,
+      "type": "weekly_bin",
+      "source": "bin_pickup",
+      "date": "2025-10-18T08:00:00Z"
+    }
+  ]
+}
