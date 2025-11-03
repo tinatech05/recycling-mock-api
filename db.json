@@ -159,4 +159,44 @@
       "date": "2025-10-18T08:00:00Z"
     }
   ]
+  ,
+  "coupons": [
+    {
+      "id": 1,
+      "code": "ECO10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "requiredPoints": 50,
+      "type": "bin",
+      "commercialMark": "EcoClean",
+      "expiryDate": "2025-12-31T23:59:59Z",
+      "isActive": true,
+      "description": "Get 10% off your next recycling pickup with EcoClean!"
+    },
+    {
+      "id": 2,
+      "code": "GREEN20",
+      "discountType": "fixed",
+      "discountValue": 20,
+      "requiredPoints": 100,
+      "type": "pickup",
+      "commercialMark": "GreenCollect",
+      "expiryDate": "2026-01-15T23:59:59Z",
+      "isActive": true,
+      "description": "Use your 100 points to save 20 DA on your next pickup!"
+    },
+    {
+      "id": 3,
+      "code": "RECYCLE5",
+      "discountType": "percentage",
+      "discountValue": 5,
+      "requiredPoints": 30,
+      "type": "ad_bonus",
+      "commercialMark": "RecyclePro",
+      "expiryDate": "2025-11-30T23:59:59Z",
+      "isActive": false,
+      "description": "Expired coupon — 5% off eco-friendly items at RecyclePro."
+    }
+  ]
+
 }
