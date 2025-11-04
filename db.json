@@ -20,7 +20,14 @@
           "date": "2025-11-01T15:00:00Z"
         }
       ],
-      "reviewsReceived": []
+      "reviewsReceived": [],
+      "impact": {
+        "totalItemsRecycled": 56,
+        "co2SavedKg": 12.5,
+        "waterSavedLiters": 180,
+        "energySavedKwh": 45,
+        "ranking": 3
+      }
     }
   ],
 
