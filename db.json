@@ -6,10 +6,6 @@
       "email": "yasmine@example.com",
       "phone": "+213660000001",
       "profilePic": "https://i.pravatar.cc/150?img=1",
-      "locations": [
-        { "id": 1, "label": "Home", "lat": 36.7529, "lng": 3.0420 },
-        { "id": 2, "label": "Work", "lat": 36.7545, "lng": 3.0600 }
-      ],
       "bins": [1, 2, 3],
       "pickups": [1, 2],
       "points": [
@@ -34,10 +30,6 @@
       "name": "Ali Ben",
       "phone": "+213660000010",
       "profilePic": "https://i.pravatar.cc/150?img=10",
-      "addresses": [
-        { "id": 1, "label": "Depot A", "lat": 36.7520, "lng": 3.0450 },
-        { "id": 2, "label": "Depot B", "lat": 36.7505, "lng": 3.0475 }
-      ],
       "activePickups": [1],
       "completedPickups": [2],
       "cancelledPickups": [3],
@@ -64,18 +56,26 @@
     {
       "id": 1,
       "type": "plastic",
-      "capacity": 100,
+      "capacityKg": 100,
       "fillPercent": 80,
-      "location": { "lat": 36.7521, "lng": 3.0422 },
-      "status": "ready_for_pickup"
+      "status": "ready_for_pickup",
+      "lastUpdated": "2025-11-03T10:00:00Z"
     },
     {
       "id": 2,
       "type": "glass",
-      "capacity": 80,
-      "fillPercent": 50,
-      "location": { "lat": 36.7530, "lng": 3.0410 },
-      "status": "normal"
+      "capacityKg": 80,
+      "fillPercent": 60,
+      "status": "almost_ready",
+      "lastUpdated": "2025-11-02T14:00:00Z"
+    },
+    {
+      "id": 3,
+      "type": "paper",
+      "capacityKg": 120,
+      "fillPercent": 20,
+      "status": "not_ready",
+      "lastUpdated": "2025-11-01T09:00:00Z"
     }
   ],
 
@@ -122,6 +122,19 @@
       "rating": 5.0,
       "comment": "User was on time and easy to contact.",
       "date": "2025-11-02T09:00:00Z"
+    }
+  ],
+
+  "coupons": [
+    {
+      "id": 1,
+      "code": "ECO10",
+      "pointsRequired": 100,
+      "discountType": "percentage",
+      "discountValue": 10,
+      "couponType": "eco_reward",
+      "commercialMark": "GreenCo",
+      "validUntil": "2025-12-31"
     }
   ]
 }
