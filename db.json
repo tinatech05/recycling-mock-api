@@ -8,7 +8,7 @@
       "profilePic": "https://i.pravatar.cc/150?img=1",
       "bins": [1, 2, 3],
       "pickups": [1, 2],
-       "locations": [
+      "locations": [
         { "id": 1, "label": "Home", "lat": 36.7529, "lng": 3.0420 },
         { "id": 2, "label": "Work", "lat": 36.7545, "lng": 3.0600 }
       ],
