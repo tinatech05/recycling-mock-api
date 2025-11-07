@@ -6,7 +6,7 @@
       "email": "yasmine@example.com",
       "phone": "+213660000001",
       "profilePic": "https://i.pravatar.cc/150?img=1",
-      "bins": [1, 2, 3],
+      "bins": [51, 52, 53],
       "pickups": [1, 2],
       "locations": [
         { "id": 1, "label": "Home", "lat": 36.7529, "lng": 3.0420 },
@@ -65,7 +65,7 @@
 
   "bins": [
     {
-      "id": 1,
+      "id": 51,
       "type": "plastic",
       "capacityKg": 100,
       "fillPercent": 80,
@@ -73,7 +73,7 @@
       "lastUpdated": "2025-11-03T10:00:00Z"
     },
     {
-      "id": 2,
+      "id": 52,
       "type": "glass",
       "capacityKg": 80,
       "fillPercent": 60,
@@ -81,7 +81,7 @@
       "lastUpdated": "2025-11-02T14:00:00Z"
     },
     {
-      "id": 3,
+      "id": 53,
       "type": "paper",
       "capacityKg": 120,
       "fillPercent": 20,
