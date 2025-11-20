@@ -7,11 +7,8 @@ const port = process.env.PORT || 10000;
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-// Small random movement for live tracking effect
-function randomShift(value) {
-  const delta = (Math.random() * 0.0008) - 0.0004;
-  return value + delta;
-}
+// In-memory storage for route steps (since meta doesn't exist in db.json)
+const routeSteps = {};
 
 /* =====================================================
    🔵 PICKER LIVE LOCATION ENDPOINT (uses PickerLocationModel)
@@ -25,16 +22,17 @@ server.get('/pickers/:pickerId/location', (req, res) => {
     return res.status(404).jsonp({ error: "Route not found for this picker" });
   }
 
-  // Current route step stored in meta
-  const stepKey = `pickerRouteStep_${pickerId}`;
-  let step = db.get('meta').get(stepKey).value() || 0;
+  // Get current step from memory (default to 0)
+  let step = routeSteps[pickerId] || 0;
 
   // Get the current point on the route
   const point = route[step];
 
-  // Update step (loop)
+  console.log(`🚗 Picker ${pickerId} - Step ${step}/${route.length - 1} - Position: ${point.lat}, ${point.lng}`);
+
+  // Update step (loop back to start when route ends)
   const nextStep = (step + 1) % route.length;
-  db.get('meta').set(stepKey, nextStep).write();
+  routeSteps[pickerId] = nextStep;
 
   // Update pickerLocation inside picker
   db.get('pickers')
@@ -43,6 +41,7 @@ server.get('/pickers/:pickerId/location', (req, res) => {
       pickerLocation: {
         lat: point.lat,
         lng: point.lng,
+        label: `Moving to user - Step ${step + 1}/${route.length}`,
         lastUpdated: new Date().toISOString()
       }
     })
@@ -56,6 +55,17 @@ server.get('/pickers/:pickerId/location', (req, res) => {
     updatedAt: new Date().toISOString()
   });
 });
+
+/* =====================================================
+   🔵 RESET PICKER ROUTE (for testing)
+   ===================================================== */
+server.post('/pickers/:pickerId/resetRoute', (req, res) => {
+  const pickerId = req.params.pickerId;
+  routeSteps[pickerId] = 0;
+  console.log(`🔄 Reset route for picker ${pickerId}`);
+  res.jsonp({ message: `Route reset for picker ${pickerId}` });
+});
+
 /* =====================================================
    🔵 GET FULL LOCATION HISTORY (PickerLocationModel[])
    ===================================================== */
@@ -187,4 +197,5 @@ server.use(router);
 
 server.listen(port, () => {
   console.log(`🚀 JSON Server mock API running on port ${port}`);
+  console.log(`📍 Route tracking initialized for pickers`);
 });
