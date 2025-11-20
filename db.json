@@ -8,14 +8,17 @@
       "profilePic": "https://i.pravatar.cc/150?img=1",
       "bins": [51, 52, 53],
       "pickups": [1, 2],
+
       "locations": [
         { "id": 1, "label": "Home", "lat": 36.7529, "lng": 3.0420 },
         { "id": 2, "label": "Work", "lat": 36.7545, "lng": 3.0600 }
       ],
+
       "points": [
         { "id": 1, "type": "weekly_bin", "value": 30, "source": "bin_pickup", "date": "2025-10-20T10:00:00Z" },
         { "id": 2, "type": "bonus", "value": 10, "source": "ad_watch", "date": "2025-10-22T16:00:00Z" }
       ],
+
       "reviewsGiven": [
         {
           "pickerId": 10,
@@ -24,7 +27,9 @@
           "date": "2025-11-01T15:00:00Z"
         }
       ],
+
       "reviewsReceived": [],
+
       "impact": {
         "totalItemsRecycled": 56,
         "co2SavedKg": 12.5,
@@ -41,9 +46,19 @@
       "name": "Ali Ben",
       "phone": "+213660000010",
       "profilePic": "https://i.pravatar.cc/150?img=10",
+
       "activePickups": [1],
       "completedPickups": [2],
       "cancelledPickups": [3],
+
+      "pickerLocation": {
+        "lat": 36.77090,
+        "lng": 3.02420,
+        "label": "Starting point – Oued Romane"
+      },
+
+     
+
       "reviewsGiven": [
         {
           "userId": 1,
@@ -52,6 +67,7 @@
           "date": "2025-11-02T09:00:00Z"
         }
       ],
+
       "reviewsReceived": [
         {
           "userId": 1,
@@ -147,5 +163,25 @@
       "commercialMark": "GreenCo",
       "validUntil": "2025-12-31"
     }
-  ]
+  ],
+
+  "pickerRoutes": {
+    "10": [
+      { "lat": 36.77090, "lng": 3.02420 },
+      { "lat": 36.77010, "lng": 3.02610 },
+      { "lat": 36.76940, "lng": 3.02850 },
+      { "lat": 36.76850, "lng": 3.03020 },
+      { "lat": 36.76760, "lng": 3.03200 },
+      { "lat": 36.76690, "lng": 3.03410 },
+      { "lat": 36.76630, "lng": 3.03620 },
+      { "lat": 36.76560, "lng": 3.03810 },
+      { "lat": 36.76480, "lng": 3.04000 },
+      { "lat": 36.76400, "lng": 3.04210 },
+      { "lat": 36.76320, "lng": 3.04420 },
+      { "lat": 36.76240, "lng": 3.04630 },
+      { "lat": 36.76160, "lng": 3.04840 },
+      { "lat": 36.76080, "lng": 3.05010 },
+      { "lat": 36.75990, "lng": 3.05190 }
+    ]
+  }
 }
