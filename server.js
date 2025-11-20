@@ -7,9 +7,60 @@ const port = process.env.PORT || 10000;
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-// 🧩 Custom Routes
+// Utility for slight random movement
+function randomShift(value) {
+  const delta = (Math.random() * 0.0008) - 0.0004; 
+  return value + delta;
+}
 
-// Get all pickups for a specific user
+/**
+ * 🔵 NEW ENDPOINT: Picker Live Location (mock moving tracker)
+ * GET /pickers/:pickerId/location
+ * Returns: { id, pickerId, lat, lng, updatedAt }
+ */
+server.get('/pickers/:pickerId/location', (req, res) => {
+  const db = router.db;
+  const pickerId = parseInt(req.params.pickerId);
+
+  // Get picker’s last saved location
+  const picker = db.get('pickers').find({ id: pickerId }).value();
+
+  if (!picker) {
+    return res.status(404).jsonp({ message: "Picker not found" });
+  }
+
+  // If db.json doesn't contain coordinates → generate static base
+  if (!picker.lat || !picker.lng) {
+    picker.lat = 36.7535; 
+    picker.lng = 3.0580;
+  }
+
+  // Apply small random movement
+  picker.lat = randomShift(picker.lat);
+  picker.lng = randomShift(picker.lng);
+
+  // Save updated coords to db.json
+  db.get('pickers')
+    .find({ id: pickerId })
+    .assign({ lat: picker.lat, lng: picker.lng })
+    .write();
+
+  const response = {
+    id: pickerId,
+    pickerId: pickerId,
+    lat: picker.lat,
+    lng: picker.lng,
+    updatedAt: new Date().toISOString()
+  };
+
+  res.jsonp(response);
+});
+
+/* =====================================================
+   ⭐ EXISTING ROUTES (unchanged except formatting)
+   ===================================================== */
+
+// Get all pickups for a user
 server.get('/users/:userId/pickups', (req, res) => {
   const db = router.db;
   const userId = parseInt(req.params.userId);
@@ -17,7 +68,7 @@ server.get('/users/:userId/pickups', (req, res) => {
   res.jsonp(pickups);
 });
 
-// Get all bins owned by a specific user
+// Get bins for a user
 server.get('/users/:userId/bins', (req, res) => {
   const db = router.db;
   const userId = parseInt(req.params.userId);
@@ -25,7 +76,7 @@ server.get('/users/:userId/bins', (req, res) => {
   res.jsonp(bins);
 });
 
-// Get all points history for a user
+// Points history
 server.get('/users/:userId/pointsHistory', (req, res) => {
   const db = router.db;
   const userId = parseInt(req.params.userId);
@@ -33,16 +84,18 @@ server.get('/users/:userId/pointsHistory', (req, res) => {
   res.jsonp(points);
 });
 
-// Filter bins by type (e.g., /bins?type=plastic)
+// Filter bins by type
 server.get('/bins', (req, res) => {
   const db = router.db;
   const { type } = req.query;
+
   let bins = db.get('bins').value();
-  if (type) bins = bins.filter((b) => b.type.toLowerCase() === type.toLowerCase());
+  if (type) bins = bins.filter(b => b.type.toLowerCase() === type.toLowerCase());
+
   res.jsonp(bins);
 });
 
-// Handle point increment after pickup confirmation
+// Confirm pickup + award points
 server.post('/pickups/:pickupId/confirm', (req, res) => {
   const db = router.db;
   const pickupId = parseInt(req.params.pickupId);
@@ -53,17 +106,18 @@ server.post('/pickups/:pickupId/confirm', (req, res) => {
     return;
   }
 
-  // Update pickup status
   db.get('pickups')
     .find({ id: pickupId })
     .assign({ status: 'done', weightKg: req.body.weightKg || 0 })
     .write();
 
-  // Add points
   const userId = pickup.userId;
   const user = db.get('users').find({ id: userId }).value();
+
   if (user) {
-    const newPoints = user.totalPoints + (req.body.points || 10);
+    const pointsToAdd = req.body.points || 10;
+    const newPoints = (user.totalPoints || 0) + pointsToAdd;
+
     db.get('users').find({ id: userId }).assign({ totalPoints: newPoints }).write();
 
     db.get('pointsHistory')
@@ -71,7 +125,7 @@ server.post('/pickups/:pickupId/confirm', (req, res) => {
         id: Date.now(),
         userId,
         source: 'pickup_completed',
-        points: req.body.points || 10,
+        points: pointsToAdd,
         date: new Date().toISOString(),
       })
       .write();
@@ -80,9 +134,9 @@ server.post('/pickups/:pickupId/confirm', (req, res) => {
   res.jsonp({ message: 'Pickup confirmed and points updated' });
 });
 
-// Use default routes (e.g., /users, /bins, /pickups)
+// Default JSON Server routes
 server.use(router);
 
 server.listen(port, () => {
-  console.log(`🚀 JSON Server running on port ${port}`);
+  console.log(`🚀 JSON Server mock API running on port ${port}`);
 });
