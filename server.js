@@ -18,43 +18,44 @@ function randomShift(value) {
    ===================================================== */
 server.get('/pickers/:pickerId/location', (req, res) => {
   const db = router.db;
-  const pickerId = parseInt(req.params.pickerId);
+  const pickerId = req.params.pickerId;
 
-  const picker = db.get('pickers').find({ id: pickerId }).value();
-  if (!picker) return res.status(404).jsonp({ message: "Picker not found" });
-
-  // If picker has no location history → initialize one
-  if (!picker.locations || picker.locations.length === 0) {
-    picker.locations = [
-      {
-        id: 1,
-        lat: 36.7535,
-        lng: 3.0580,
-        timestamp: new Date().toISOString()
-      }
-    ];
+  const route = db.get('pickerRoutes').get(pickerId).value();
+  if (!route) {
+    return res.status(404).jsonp({ error: "Route not found for this picker" });
   }
 
-  // Get last known location
-  const last = picker.locations[picker.locations.length - 1];
+  // Current route step stored in meta
+  const stepKey = `pickerRouteStep_${pickerId}`;
+  let step = db.get('meta').get(stepKey).value() || 0;
 
-  // Apply random movement
-  const updated = {
-    id: last.id + 1,
-    lat: randomShift(last.lat),
-    lng: randomShift(last.lng),
-    timestamp: new Date().toISOString()
-  };
+  // Get the current point on the route
+  const point = route[step];
 
-  // Save new location into history
-  picker.locations.push(updated);
+  // Update step (loop)
+  const nextStep = (step + 1) % route.length;
+  db.get('meta').set(stepKey, nextStep).write();
 
-  // Persist to db.json
-  db.get('pickers').find({ id: pickerId }).assign({ locations: picker.locations }).write();
+  // Update pickerLocation inside picker
+  db.get('pickers')
+    .find({ id: parseInt(pickerId) })
+    .assign({
+      pickerLocation: {
+        lat: point.lat,
+        lng: point.lng,
+        lastUpdated: new Date().toISOString()
+      }
+    })
+    .write();
 
-  res.jsonp(updated);
+  // Response for Android
+  res.jsonp({
+    pickerId: pickerId,
+    lat: point.lat,
+    lng: point.lng,
+    updatedAt: new Date().toISOString()
+  });
 });
-
 /* =====================================================
    🔵 GET FULL LOCATION HISTORY (PickerLocationModel[])
    ===================================================== */
