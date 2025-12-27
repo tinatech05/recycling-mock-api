@@ -98,6 +98,119 @@ server.get('/pickers/:pickerId/location/latest', (req, res) => {
 });
 
 /* =====================================================
+   🏆 PICKER PERFORMANCE ENDPOINT (PickerPerformanceModel)
+   ===================================================== */
+server.get('/api/picker/:pickerId/performance', (req, res) => {
+  const db = router.db;
+  const pickerId = parseInt(req.params.pickerId);
+  const month = req.query.month; // e.g., "2025-01"
+
+  const performance = db.get('pickerPerformance')
+    .find({ pickerId: pickerId, month: month })
+    .value();
+
+  if (!performance) {
+    return res.status(404).jsonp({ 
+      message: `Performance data not found for picker ${pickerId} in ${month}` 
+    });
+  }
+
+  res.jsonp(performance);
+});
+
+/* =====================================================
+   🎯 PICKER GOALS ENDPOINT (PickerGoalModel[])
+   ===================================================== */
+server.get('/api/picker/:pickerId/goals', (req, res) => {
+  const db = router.db;
+  const pickerId = parseInt(req.params.pickerId);
+  const month = req.query.month; // e.g., "2025-01"
+
+  let goals = db.get('pickerGoals').filter({ pickerId: pickerId });
+
+  if (month) {
+    goals = goals.filter({ month: month });
+  }
+
+  const result = goals.value();
+
+  if (!result || result.length === 0) {
+    return res.jsonp([]);
+  }
+
+  res.jsonp(result);
+});
+
+/* =====================================================
+   🎯 GET SINGLE GOAL BY ID (PickerGoalModel)
+   ===================================================== */
+server.get('/api/goals/:goalId', (req, res) => {
+  const db = router.db;
+  const goalId = parseInt(req.params.goalId);
+
+  const goal = db.get('pickerGoals').find({ id: goalId }).value();
+
+  if (!goal) {
+    return res.status(404).jsonp({ message: `Goal ${goalId} not found` });
+  }
+
+  res.jsonp(goal);
+});
+
+/* =====================================================
+   🎯 UPDATE GOAL (PUT) (PickerGoalModel)
+   ===================================================== */
+server.put('/api/goals/:goalId', (req, res) => {
+  const db = router.db;
+  const goalId = parseInt(req.params.goalId);
+
+  const goal = db.get('pickerGoals').find({ id: goalId }).value();
+
+  if (!goal) {
+    return res.status(404).jsonp({ message: `Goal ${goalId} not found` });
+  }
+
+  // Update goal with new data
+  const updatedGoal = db.get('pickerGoals')
+    .find({ id: goalId })
+    .assign({
+      ...req.body,
+      updatedAt: new Date().toISOString()
+    })
+    .write();
+
+  res.jsonp(updatedGoal);
+});
+
+/* =====================================================
+   🎯 CREATE NEW GOAL (POST) (PickerGoalModel)
+   ===================================================== */
+server.post('/api/goals', (req, res) => {
+  const db = router.db;
+
+  const newGoal = {
+    id: Date.now(),
+    pickerId: req.body.pickerId,
+    month: req.body.month,
+    binType: req.body.binType || "all",
+    targetWeight: req.body.targetWeight || 0,
+    currentWeight: 0,
+    targetPickups: req.body.targetPickups || 0,
+    currentPickups: 0,
+    targetEarnings: req.body.targetEarnings || 0,
+    currentEarnings: 0,
+    status: "active",
+    reward: req.body.reward || null,
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString()
+  };
+
+  db.get('pickerGoals').push(newGoal).write();
+
+  res.status(201).jsonp(newGoal);
+});
+
+/* =====================================================
    ⭐ USER ROUTES
    ===================================================== */
 
@@ -198,4 +311,5 @@ server.use(router);
 server.listen(port, () => {
   console.log(`🚀 JSON Server mock API running on port ${port}`);
   console.log(`📍 Route tracking initialized for pickers`);
+  console.log(`🏆 Performance & Goals endpoints ready`);
 });
