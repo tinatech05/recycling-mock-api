@@ -6,15 +6,44 @@
       "email": "yasmine@example.com",
       "phone": "+213660000001",
       "profilePic": "https://i.pravatar.cc/150?img=1",
-      "bins": [51, 52, 53],
-      "pickups": [1, 2],
+      "bins": [
+        51,
+        52,
+        53
+      ],
+      "pickups": [
+        1,
+        2
+      ],
       "locations": [
-        { "id": 1, "label": "Home", "lat": 36.7529, "lng": 3.0420 },
-        { "id": 2, "label": "Work", "lat": 36.7545, "lng": 3.0600 }
+        {
+          "id": 1,
+          "label": "Home",
+          "lat": 36.7529,
+          "lng": 3.042
+        },
+        {
+          "id": 2,
+          "label": "Work",
+          "lat": 36.7545,
+          "lng": 3.06
+        }
       ],
       "points": [
-        { "id": 1, "type": "weekly_bin", "value": 30, "source": "bin_pickup", "date": "2025-10-20T10:00:00Z" },
-        { "id": 2, "type": "bonus", "value": 10, "source": "ad_watch", "date": "2025-10-22T16:00:00Z" }
+        {
+          "id": 1,
+          "type": "weekly_bin",
+          "value": 30,
+          "source": "bin_pickup",
+          "date": "2025-10-20T10:00:00Z"
+        },
+        {
+          "id": 2,
+          "type": "bonus",
+          "value": 10,
+          "source": "ad_watch",
+          "date": "2025-10-22T16:00:00Z"
+        }
       ],
       "reviewsGiven": [
         {
@@ -34,19 +63,24 @@
       }
     }
   ],
-
   "pickers": [
     {
       "id": 10,
       "name": "Ali Ben",
       "phone": "+213660000010",
       "profilePic": "https://i.pravatar.cc/150?img=10",
-      "activePickups": [1],
-      "completedPickups": [2],
-      "cancelledPickups": [3],
+      "activePickups": [
+        1
+      ],
+      "completedPickups": [
+        2
+      ],
+      "cancelledPickups": [
+        3
+      ],
       "pickerLocation": {
-        "lat": 36.77090,
-        "lng": 3.02420,
+        "lat": 36.7709,
+        "lng": 3.0242,
         "label": "Starting point – Oued Romane"
       },
       "reviewsGiven": [
@@ -65,9 +99,35 @@
           "date": "2025-11-01T15:00:00Z"
         }
       ]
+    },
+    {
+      "id": 11,
+      "name": "Karim Meziani",
+      "phone": "+213660000011",
+      "profilePic": "https://i.pravatar.cc/150?img=11",
+      "activePickups": [],
+      "completedPickups": [
+        4,
+        5,
+        6
+      ],
+      "cancelledPickups": [],
+      "pickerLocation": {
+        "lat": 36.765,
+        "lng": 3.05,
+        "label": "Near Bab El Oued"
+      },
+      "reviewsGiven": [],
+      "reviewsReceived": [
+        {
+          "userId": 2,
+          "rating": 5.0,
+          "comment": "Excellent service, very professional.",
+          "date": "2025-11-05T10:00:00Z"
+        }
+      ]
     }
   ],
-
   "bins": [
     {
       "id": 51,
@@ -94,7 +154,6 @@
       "lastUpdated": "2025-11-01T09:00:00Z"
     }
   ],
-
   "pickups": [
     {
       "id": 1,
@@ -121,7 +180,6 @@
       "weight_verified": true
     }
   ],
-
   "reviews": [
     {
       "id": 1,
@@ -140,7 +198,6 @@
       "date": "2025-11-02T09:00:00Z"
     }
   ],
-
   "coupons": [
     {
       "id": 1,
@@ -153,34 +210,333 @@
       "validUntil": "2025-12-31"
     }
   ],
-
   "pickerRoutes": {
     "10": [
-      { "lat": 36.77090, "lng": 3.02420 },
-      { "lat": 36.77010, "lng": 3.02610 },
-      { "lat": 36.76940, "lng": 3.02850 },
-      { "lat": 36.76850, "lng": 3.03020 },
-      { "lat": 36.76760, "lng": 3.03200 },
-      { "lat": 36.76690, "lng": 3.03410 },
-      { "lat": 36.76630, "lng": 3.03620 },
-      { "lat": 36.76560, "lng": 3.03810 },
-      { "lat": 36.76480, "lng": 3.04000 },
-      { "lat": 36.76400, "lng": 3.04210 },
-      { "lat": 36.76320, "lng": 3.04420 },
-      { "lat": 36.76240, "lng": 3.04630 },
-      { "lat": 36.76160, "lng": 3.04840 },
-      { "lat": 36.76080, "lng": 3.05010 },
-      { "lat": 36.75990, "lng": 3.05190 },
-      { "lat": 36.75900, "lng": 3.05380 },
-      { "lat": 36.75820, "lng": 3.05560 },
-      { "lat": 36.75740, "lng": 3.05740 },
-      { "lat": 36.75660, "lng": 3.05920 },
-      { "lat": 36.75580, "lng": 3.06100 },
-      { "lat": 36.75500, "lng": 3.05280 },
-      { "lat": 36.75420, "lng": 3.04860 },
-      { "lat": 36.75340, "lng": 3.04640 },
-      { "lat": 36.75290, "lng": 3.04420 },
-      { "lat": 36.7529, "lng": 3.0420 }
+      {
+        "lat": 36.7709,
+        "lng": 3.0242
+      },
+      {
+        "lat": 36.7701,
+        "lng": 3.0261
+      },
+      {
+        "lat": 36.7694,
+        "lng": 3.0285
+      },
+      {
+        "lat": 36.7685,
+        "lng": 3.0302
+      },
+      {
+        "lat": 36.7676,
+        "lng": 3.032
+      },
+      {
+        "lat": 36.7669,
+        "lng": 3.0341
+      },
+      {
+        "lat": 36.7663,
+        "lng": 3.0362
+      },
+      {
+        "lat": 36.7656,
+        "lng": 3.0381
+      },
+      {
+        "lat": 36.7648,
+        "lng": 3.04
+      },
+      {
+        "lat": 36.764,
+        "lng": 3.0421
+      },
+      {
+        "lat": 36.7632,
+        "lng": 3.0442
+      },
+      {
+        "lat": 36.7624,
+        "lng": 3.0463
+      },
+      {
+        "lat": 36.7616,
+        "lng": 3.0484
+      },
+      {
+        "lat": 36.7608,
+        "lng": 3.0501
+      },
+      {
+        "lat": 36.7599,
+        "lng": 3.0519
+      },
+      {
+        "lat": 36.759,
+        "lng": 3.0538
+      },
+      {
+        "lat": 36.7582,
+        "lng": 3.0556
+      },
+      {
+        "lat": 36.7574,
+        "lng": 3.0574
+      },
+      {
+        "lat": 36.7566,
+        "lng": 3.0592
+      },
+      {
+        "lat": 36.7558,
+        "lng": 3.061
+      },
+      {
+        "lat": 36.755,
+        "lng": 3.0528
+      },
+      {
+        "lat": 36.7542,
+        "lng": 3.0486
+      },
+      {
+        "lat": 36.7534,
+        "lng": 3.0464
+      },
+      {
+        "lat": 36.7529,
+        "lng": 3.0442
+      },
+      {
+        "lat": 36.7529,
+        "lng": 3.042
+      }
     ]
-  }
+  },
+  "pickerPerformance": [
+    {
+      "pickerId": 10,
+      "month": "2025-01",
+      "plasticWeight": 45.5,
+      "glassWeight": 32.0,
+      "paperWeight": 28.5,
+      "metalWeight": 15.0,
+      "totalWeight": 121.0,
+      "totalPickups": 25,
+      "completedPickups": 23,
+      "cancelledPickups": 2,
+      "completionRate": 92.0,
+      "totalEarnings": 4500.0,
+      "baseEarnings": 3800.0,
+      "bonusEarnings": 500.0,
+      "tipsEarnings": 200.0,
+      "averagePickupDuration": 35,
+      "totalWorkingHours": 13.4,
+      "averageRating": 4.5,
+      "totalReviews": 18,
+      "fiveStarCount": 12,
+      "fourStarCount": 5,
+      "threeStarCount": 1,
+      "twoStarCount": 0,
+      "oneStarCount": 0,
+      "goalsAchieved": 2,
+      "totalGoals": 3,
+      "currentGoals": [
+        {
+          "id": 1,
+          "pickerId": 10,
+          "month": "2025-01",
+          "binType": "plastic",
+          "targetWeight": 50.0,
+          "currentWeight": 45.5,
+          "targetPickups": 25,
+          "currentPickups": 23,
+          "targetEarnings": 5000.0,
+          "currentEarnings": 4500.0,
+          "status": "active",
+          "reward": 300.0,
+          "createdAt": "2025-01-01T00:00:00Z",
+          "updatedAt": "2025-01-15T10:30:00Z"
+        }
+      ],
+      "rank": 3,
+      "totalPickers": 50,
+      "badges": [
+        "100kg_collector",
+        "top_rated",
+        "speed_demon"
+      ]
+    },
+    {
+      "pickerId": 10,
+      "month": "2024-12",
+      "plasticWeight": 38.0,
+      "glassWeight": 25.0,
+      "paperWeight": 22.0,
+      "metalWeight": 12.0,
+      "totalWeight": 97.0,
+      "totalPickups": 20,
+      "completedPickups": 19,
+      "cancelledPickups": 1,
+      "completionRate": 95.0,
+      "totalEarnings": 3800.0,
+      "baseEarnings": 3200.0,
+      "bonusEarnings": 400.0,
+      "tipsEarnings": 200.0,
+      "averagePickupDuration": 32,
+      "totalWorkingHours": 10.1,
+      "averageRating": 4.7,
+      "totalReviews": 15,
+      "fiveStarCount": 13,
+      "fourStarCount": 2,
+      "threeStarCount": 0,
+      "twoStarCount": 0,
+      "oneStarCount": 0,
+      "goalsAchieved": 3,
+      "totalGoals": 3,
+      "currentGoals": [],
+      "rank": 2,
+      "totalPickers": 48,
+      "badges": [
+        "top_performer",
+        "reliable_picker"
+      ]
+    },
+    {
+      "pickerId": 11,
+      "month": "2025-01",
+      "plasticWeight": 52.0,
+      "glassWeight": 40.0,
+      "paperWeight": 35.0,
+      "metalWeight": 18.0,
+      "totalWeight": 145.0,
+      "totalPickups": 30,
+      "completedPickups": 30,
+      "cancelledPickups": 0,
+      "completionRate": 100.0,
+      "totalEarnings": 6000.0,
+      "baseEarnings": 5000.0,
+      "bonusEarnings": 800.0,
+      "tipsEarnings": 200.0,
+      "averagePickupDuration": 28,
+      "totalWorkingHours": 14.0,
+      "averageRating": 4.9,
+      "totalReviews": 25,
+      "fiveStarCount": 24,
+      "fourStarCount": 1,
+      "threeStarCount": 0,
+      "twoStarCount": 0,
+      "oneStarCount": 0,
+      "goalsAchieved": 3,
+      "totalGoals": 3,
+      "currentGoals": [],
+      "rank": 1,
+      "totalPickers": 50,
+      "badges": [
+        "top_performer",
+        "perfect_month",
+        "eco_champion",
+        "speed_demon"
+      ]
+    }
+  ],
+  "pickerGoals": [
+    {
+      "id": 1,
+      "pickerId": 10,
+      "month": "2025-01",
+      "binType": "plastic",
+      "targetWeight": 50.0,
+      "currentWeight": 45.5,
+      "targetPickups": 25,
+      "currentPickups": 23,
+      "targetEarnings": 5000.0,
+      "currentEarnings": 4500.0,
+      "status": "active",
+      "reward": 300.0,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "pickerId": 10,
+      "month": "2025-01",
+      "binType": "glass",
+      "targetWeight": 35.0,
+      "currentWeight": 32.0,
+      "targetPickups": 15,
+      "currentPickups": 14,
+      "targetEarnings": 2500.0,
+      "currentEarnings": 2300.0,
+      "status": "active",
+      "reward": 200.0,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-15T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "pickerId": 10,
+      "month": "2025-01",
+      "binType": "all",
+      "targetWeight": 150.0,
+      "currentWeight": 121.0,
+      "targetPickups": 30,
+      "currentPickups": 23,
+      "targetEarnings": 6000.0,
+      "currentEarnings": 4500.0,
+      "status": "active",
+      "reward": 500.0,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-15T10:30:00Z"
+    },
+    {
+      "id": 4,
+      "pickerId": 10,
+      "month": "2024-12",
+      "binType": "plastic",
+      "targetWeight": 40.0,
+      "currentWeight": 38.0,
+      "targetPickups": 20,
+      "currentPickups": 19,
+      "targetEarnings": 4000.0,
+      "currentEarnings": 3800.0,
+      "status": "achieved",
+      "reward": 250.0,
+      "createdAt": "2024-12-01T00:00:00Z",
+      "updatedAt": "2024-12-31T23:59:00Z"
+    },
+    {
+      "id": 5,
+      "pickerId": 11,
+      "month": "2025-01",
+      "binType": "all",
+      "targetWeight": 140.0,
+      "currentWeight": 145.0,
+      "targetPickups": 28,
+      "currentPickups": 30,
+      "targetEarnings": 5500.0,
+      "currentEarnings": 6000.0,
+      "status": "achieved",
+      "reward": 600.0,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-20T14:00:00Z"
+    },
+    {
+      "id": 6,
+      "pickerId": 11,
+      "month": "2025-01",
+      "binType": "plastic",
+      "targetWeight": 50.0,
+      "currentWeight": 52.0,
+      "targetPickups": 20,
+      "currentPickups": 22,
+      "targetEarnings": 3000.0,
+      "currentEarnings": 3200.0,
+      "status": "achieved",
+      "reward": 300.0,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-20T14:00:00Z"
+    }
+  ]
 }
