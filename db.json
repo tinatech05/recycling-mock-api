@@ -1,417 +1,62 @@
-{
-  "users": [
-    {
-      "id": 1,
-      "name": "Yasmine",
-      "email": "yasmine@example.com",
-      "phone": "+213660000001",
-      "profilePic": "https://i.pravatar.cc/150?img=1",
-      "bins": [51, 52, 53],
-      "pickups": [1, 2],
-      "locations": [
-        {
-          "id": 1,
-          "label": "Home",
-          "lat": 36.7529,
-          "lng": 3.042
-        },
-        {
-          "id": 2,
-          "label": "Work",
-          "lat": 36.7545,
-          "lng": 3.06
-        }
-      ],
-      "points": [
-        {
-          "id": 1,
-          "type": "weekly_bin",
-          "value": 30,
-          "source": "bin_pickup",
-          "date": "2025-10-20T10:00:00Z"
-        }
-      ],
-      "reviewsGiven": [],
-      "reviewsReceived": [],
-      "impact": {
-        "totalItemsRecycled": 56,
-        "co2SavedKg": 12.5,
-        "waterSavedLiters": 180,
-        "energySavedKwh": 45,
-        "ranking": 3
-      }
-    },
-    {
-      "id": 2,
-      "name": "Karim Meziani",
-      "email": "karim@example.com",
-      "phone": "+213660000002",
-      "profilePic": "https://i.pravatar.cc/150?img=2",
-      "bins": [54, 55],
-      "pickups": [3, 4],
-      "locations": [
-        {
-          "id": 3,
-          "label": "Home",
-          "lat": 36.7680,
-          "lng": 3.0510
-        }
-      ],
-      "points": [],
-      "reviewsGiven": [],
-      "reviewsReceived": [],
-      "impact": {
-        "totalItemsRecycled": 32,
-        "co2SavedKg": 8.2,
-        "waterSavedLiters": 120,
-        "energySavedKwh": 28,
-        "ranking": 8
-      }
-    },
-    {
-      "id": 3,
-      "name": "Amina Benali",
-      "email": "amina@example.com",
-      "phone": "+213660000003",
-      "profilePic": "https://i.pravatar.cc/150?img=3",
-      "bins": [56],
-      "pickups": [5],
-      "locations": [
-        {
-          "id": 4,
-          "label": "Apartment",
-          "lat": 36.7620,
-          "lng": 3.0380
-        }
-      ],
-      "points": [],
-      "reviewsGiven": [],
-      "reviewsReceived": [],
-      "impact": {
-        "totalItemsRecycled": 18,
-        "co2SavedKg": 4.5,
-        "waterSavedLiters": 80,
-        "energySavedKwh": 15,
-        "ranking": 15
-      }
-    },
-    {
-      "id": 4,
-      "name": "Mohamed Saidi",
-      "email": "mohamed@example.com",
-      "phone": "+213660000004",
-      "profilePic": "https://i.pravatar.cc/150?img=4",
-      "bins": [57, 58],
-      "pickups": [6, 7],
-      "locations": [
-        {
-          "id": 5,
-          "label": "Villa",
-          "lat": 36.7590,
-          "lng": 3.0450
-        }
-      ],
-      "points": [],
-      "reviewsGiven": [],
-      "reviewsReceived": [],
-      "impact": {
-        "totalItemsRecycled": 42,
-        "co2SavedKg": 10.8,
-        "waterSavedLiters": 150,
-        "energySavedKwh": 35,
-        "ranking": 5
-      }
-    },
-    {
-      "id": 5,
-      "name": "Fatima Khelifi",
-      "email": "fatima@example.com",
-      "phone": "+213660000005",
-      "profilePic": "https://i.pravatar.cc/150?img=5",
-      "bins": [59],
-      "pickups": [8],
-      "locations": [
-        {
-          "id": 6,
-          "label": "Home",
-          "lat": 36.7550,
-          "lng": 3.0580
-        }
-      ],
-      "points": [],
-      "reviewsGiven": [],
-      "reviewsReceived": [],
-      "impact": {
-        "totalItemsRecycled": 25,
-        "co2SavedKg": 6.5,
-        "waterSavedLiters": 95,
-        "energySavedKwh": 22,
-        "ranking": 12
-      }
+[
+  {
+    "id": 1,
+    "name": "Yasmine",
+    "email": "yasmine@example.com",
+    "phone": "+213660000001",
+    "profilePic": "https://i.pravatar.cc/150?img=1",
+    "location": {
+      "lat": 36.7529,
+      "lng": 3.042,
+      "address": "Rue Didouche Mourad, Alger Centre"
     }
-  ],
-  "pickers": [
-    {
-      "id": 10,
-      "name": "Ali Ben",
-      "phone": "+213660000010",
-      "profilePic": "https://i.pravatar.cc/150?img=10",
-      "activePickups": [1],
-      "completedPickups": [2],
-      "cancelledPickups": [],
-      "pickerLocation": {
-        "lat": 36.7709,
-        "lng": 3.0242,
-        "label": "Starting point – Oued Romane"
-      },
-      "reviewsGiven": [],
-      "reviewsReceived": []
-    },
-    {
-      "id": 11,
-      "name": "Karim Meziani",
-      "phone": "+213660000011",
-      "profilePic": "https://i.pravatar.cc/150?img=11",
-      "activePickups": [],
-      "completedPickups": [],
-      "cancelledPickups": [],
-      "pickerLocation": {
-        "lat": 36.765,
-        "lng": 3.05,
-        "label": "Near Bab El Oued"
-      },
-      "reviewsGiven": [],
-      "reviewsReceived": []
-    }
-  ],
-  "bins": [
-    {
-      "id": 51,
-      "type": "plastic",
-      "capacityKg": 100,
-      "fillPercent": 80,
-      "status": "ready_for_pickup",
-      "lastUpdated": "2025-11-03T10:00:00Z"
-    },
-    {
-      "id": 52,
-      "type": "glass",
-      "capacityKg": 80,
-      "fillPercent": 60,
-      "status": "almost_ready",
-      "lastUpdated": "2025-11-02T14:00:00Z"
-    },
-    {
-      "id": 53,
-      "type": "paper",
-      "capacityKg": 120,
-      "fillPercent": 20,
-      "status": "not_ready",
-      "lastUpdated": "2025-11-01T09:00:00Z"
-    },
-    {
-      "id": 54,
-      "type": "plastic",
-      "capacityKg": 100,
-      "fillPercent": 90,
-      "status": "ready_for_pickup",
-      "lastUpdated": "2025-12-26T10:00:00Z"
-    },
-    {
-      "id": 55,
-      "type": "metal",
-      "capacityKg": 60,
-      "fillPercent": 75,
-      "status": "ready_for_pickup",
-      "lastUpdated": "2025-12-26T11:00:00Z"
-    },
-    {
-      "id": 56,
-      "type": "glass",
-      "capacityKg": 80,
-      "fillPercent": 85,
-      "status": "ready_for_pickup",
-      "lastUpdated": "2025-12-27T08:00:00Z"
-    },
-    {
-      "id": 57,
-      "type": "paper",
-      "capacityKg": 120,
-      "fillPercent": 70,
-      "status": "ready_for_pickup",
-      "lastUpdated": "2025-12-27T09:00:00Z"
-    },
-    {
-      "id": 58,
-      "type": "plastic",
-      "capacityKg": 100,
-      "fillPercent": 95,
-      "status": "ready_for_pickup",
-      "lastUpdated": "2025-12-27T10:00:00Z"
-    },
-    {
-      "id": 59,
-      "type": "glass",
-      "capacityKg": 80,
-      "fillPercent": 80,
-      "status": "ready_for_pickup",
-      "lastUpdated": "2025-12-27T11:00:00Z"
-    }
-  ],
-  "pickups": [
-    {
-      "id": 1,
-      "userId": 1,
-      "binId": 51,
-      "pickerId": 10,
-      "status": "in_progress",
-      "scheduledDate": "2025-12-27T14:00:00Z",
-      "qr_code": "QR-PICKUP-1-2025-12-27",
-      "picker_weight_kg": null,
-      "user_weight_kg": null,
-      "weight_verified": false
-    },
-    {
-      "id": 2,
-      "userId": 1,
-      "binId": 53,
-      "pickerId": 10,
-      "status": "done",
-      "scheduledDate": "2025-10-20T09:00:00Z",
-      "qr_code": "QR-PICKUP-2-2025-10-20",
-      "picker_weight_kg": 12.0,
-      "user_weight_kg": 12.0,
-      "weight_verified": true
-    },
-    {
-      "id": 3,
-      "userId": 2,
-      "binId": 54,
-      "pickerId": 0,
-      "status": "scheduled",
-      "scheduledDate": "2025-12-28T10:00:00Z",
-      "qr_code": "QR-PICKUP-3-2025-12-28",
-      "picker_weight_kg": null,
-      "user_weight_kg": null,
-      "weight_verified": false
-    },
-    {
-      "id": 4,
-      "userId": 2,
-      "binId": 55,
-      "pickerId": 0,
-      "status": "pending",
-      "scheduledDate": "2025-12-28T11:00:00Z",
-      "qr_code": "QR-PICKUP-4-2025-12-28",
-      "picker_weight_kg": null,
-      "user_weight_kg": null,
-      "weight_verified": false
-    },
-    {
-      "id": 5,
-      "userId": 3,
-      "binId": 56,
-      "pickerId": 0,
-      "status": "scheduled",
-      "scheduledDate": "2025-12-27T16:00:00Z",
-      "qr_code": "QR-PICKUP-5-2025-12-27",
-      "picker_weight_kg": null,
-      "user_weight_kg": null,
-      "weight_verified": false
-    },
-    {
-      "id": 6,
-      "userId": 4,
-      "binId": 57,
-      "pickerId": 0,
-      "status": "pending",
-      "scheduledDate": "2025-12-27T15:00:00Z",
-      "qr_code": "QR-PICKUP-6-2025-12-27",
-      "picker_weight_kg": null,
-      "user_weight_kg": null,
-      "weight_verified": false
-    },
-    {
-      "id": 7,
-      "userId": 4,
-      "binId": 58,
-      "pickerId": 0,
-      "status": "scheduled",
-      "scheduledDate": "2025-12-29T09:00:00Z",
-      "qr_code": "QR-PICKUP-7-2025-12-29",
-      "picker_weight_kg": null,
-      "user_weight_kg": null,
-      "weight_verified": false
-    },
-    {
-      "id": 8,
-      "userId": 5,
-      "binId": 59,
-      "pickerId": 0,
-      "status": "pending",
-      "scheduledDate": "2025-12-27T17:00:00Z",
-      "qr_code": "QR-PICKUP-8-2025-12-27",
-      "picker_weight_kg": null,
-      "user_weight_kg": null,
-      "weight_verified": false
-    }
-  ],
-  "reviews": [],
-  "coupons": [
-    {
-      "id": 1,
-      "code": "ECO10",
-      "pointsRequired": 100,
-      "discountType": "percentage",
-      "discountValue": 10,
-      "couponType": "eco_reward",
-      "commercialMark": "GreenCo",
-      "validUntil": "2025-12-31"
-    }
-  ],
-  "pickerRoutes": {
-    "10": [
-      {"lat": 36.7709, "lng": 3.0242},
-      {"lat": 36.7680, "lng": 3.0510},
-      {"lat": 36.7620, "lng": 3.0380},
-      {"lat": 36.7590, "lng": 3.0450},
-      {"lat": 36.7550, "lng": 3.0580},
-      {"lat": 36.7529, "lng": 3.042}
-    ]
   },
-  "pickerPerformance": [
-    {
-      "pickerId": 10,
-      "month": "2025-01",
-      "plasticWeight": 45.5,
-      "glassWeight": 32.0,
-      "paperWeight": 28.5,
-      "metalWeight": 15.0,
-      "totalWeight": 121.0,
-      "totalPickups": 25,
-      "completedPickups": 23,
-      "cancelledPickups": 2,
-      "completionRate": 92.0,
-      "totalEarnings": 4500.0,
-      "baseEarnings": 3800.0,
-      "bonusEarnings": 500.0,
-      "tipsEarnings": 200.0,
-      "averagePickupDuration": 35,
-      "totalWorkingHours": 13.4,
-      "averageRating": 4.5,
-      "totalReviews": 18,
-      "fiveStarCount": 12,
-      "fourStarCount": 5,
-      "threeStarCount": 1,
-      "twoStarCount": 0,
-      "oneStarCount": 0,
-      "goalsAchieved": 2,
-      "totalGoals": 3,
-      "currentGoals": [],
-      "rank": 3,
-      "totalPickers": 50,
-      "badges": ["100kg_collector", "top_rated", "speed_demon"]
+  {
+    "id": 2,
+    "name": "Karim Meziani",
+    "email": "karim@example.com",
+    "phone": "+213660000002",
+    "profilePic": "https://i.pravatar.cc/150?img=2",
+    "location": {
+      "lat": 36.7680,
+      "lng": 3.0510,
+      "address": "Bab El Oued, Algiers"
     }
-  ],
-  "pickerGoals": []
-}
+  },
+  {
+    "id": 3,
+    "name": "Amina Benali",
+    "email": "amina@example.com",
+    "phone": "+213660000003",
+    "profilePic": "https://i.pravatar.cc/150?img=3",
+    "location": {
+      "lat": 36.7620,
+      "lng": 3.0380,
+      "address": "Belouizdad, Algiers"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Mohamed Saidi",
+    "email": "mohamed@example.com",
+    "phone": "+213660000004",
+    "profilePic": "https://i.pravatar.cc/150?img=4",
+    "location": {
+      "lat": 36.7590,
+      "lng": 3.0450,
+      "address": "Kouba, Algiers"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Fatima Khelifi",
+    "email": "fatima@example.com",
+    "phone": "+213660000005",
+    "profilePic": "https://i.pravatar.cc/150?img=5",
+    "location": {
+      "lat": 36.7550,
+      "lng": 3.0580,
+      "address": "Hussein Dey, Algiers"
+    }
+  }
+]
