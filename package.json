@@ -1,11 +1,20 @@
 {
   "name": "recycling-mock-api",
   "version": "1.0.0",
-  "description": "Mock API for Recycling App",
+  "description": "Mock API for Recycling App - Full CRUD Operations",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
+  "keywords": [
+    "recycling",
+    "mock-api",
+    "json-server",
+    "crud"
+  ],
+  "author": "Yasmine",
+  "license": "MIT",
   "dependencies": {
     "json-server": "^0.17.3",
     "cors": "^2.8.5",
