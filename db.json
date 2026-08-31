@@ -63,155 +63,6 @@
       },
       "badges": ["eco_warrior", "recycling_hero", "150_pickups", "top_3"],
       "createdAt": "2024-05-10T09:00:00Z", "lastActive": "2025-12-28T02:30:00Z"
-    },
-    {
-      "id": 4,
-      "name": "Mohamed Saidi",
-      "email": "mohamed@example.com",
-      "password": "password123",
-      "phone": "+213660000004",
-      "profilePic": "https://i.pravatar.cc/150?img=4",
-      "address": "Hydra, Algiers",
-      "totalPoints": 340,
-      "bins": [8, 9],
-      "pickups": [9, 10],
-      "locations": [
-        { "id": 5, "label": "Villa", "address": "Hydra, Algiers", "lat": 36.7590, "lng": 3.0450 }
-      ],
-      "impact": {
-        "totalItemsRecycled": 112, "co2SavedKg": 24.6, "waterSavedLiters": 335,
-        "energySavedKwh": 85, "ranking": 5, "treesEquivalent": 1.6
-      },
-      "badges": ["eco_starter", "recycling_hero", "75_pickups"],
-      "createdAt": "2024-07-22T11:15:00Z", "lastActive": "2025-12-27T20:45:00Z"
-    },
-    {
-      "id": 5,
-      "name": "Fatima Boudiaf",
-      "email": "fatima@example.com",
-      "password": "password123",
-      "phone": "+213660000005",
-      "profilePic": "https://i.pravatar.cc/150?img=5",
-      "address": "Kouba, Algiers",
-      "totalPoints": 195,
-      "bins": [10],
-      "pickups": [11, 12],
-      "locations": [
-        { "id": 6, "label": "Home", "address": "Kouba, Algiers", "lat": 36.7550, "lng": 3.0580 }
-      ],
-      "impact": {
-        "totalItemsRecycled": 62, "co2SavedKg": 13.7, "waterSavedLiters": 186,
-        "energySavedKwh": 47, "ranking": 12, "treesEquivalent": 0.9
-      },
-      "badges": ["eco_starter", "25_pickups"],
-      "createdAt": "2024-09-18T16:00:00Z", "lastActive": "2025-12-27T15:20:00Z"
-    },
-    {
-      "id": 6,
-      "name": "Sofiane Aouali",
-      "email": "sofiane@example.com",
-      "password": "password123",
-      "phone": "+213660000006",
-      "profilePic": "https://i.pravatar.cc/150?img=6",
-      "address": "Cheraga, Algiers",
-      "totalPoints": 615,
-      "bins": [11, 12, 13],
-      "pickups": [14, 15, 16],
-      "locations": [
-        { "id": 7, "label": "Home", "address": "Cheraga, Algiers", "lat": 36.7656, "lng": 2.9596 },
-        { "id": 8, "label": "Office", "address": "Dely Ibrahim, Algiers", "lat": 36.7618, "lng": 2.9867 }
-      ],
-      "impact": {
-        "totalItemsRecycled": 210, "co2SavedKg": 46.2, "waterSavedLiters": 620,
-        "energySavedKwh": 158, "ranking": 1, "treesEquivalent": 3.1
-      },
-      "badges": ["eco_warrior", "recycling_hero", "200_pickups", "top_1", "champion"],
-      "createdAt": "2024-04-01T08:00:00Z", "lastActive": "2025-12-28T04:00:00Z"
-    },
-    {
-      "id": 7,
-      "name": "Nadia Hamidi",
-      "email": "nadia@example.com",
-      "password": "password123",
-      "phone": "+213660000007",
-      "profilePic": "https://i.pravatar.cc/150?img=7",
-      "address": "Bir Mourad Rais, Algiers",
-      "totalPoints": 310,
-      "bins": [14, 15],
-      "pickups": [17, 18],
-      "locations": [
-        { "id": 9, "label": "Home", "address": "Bir Mourad Rais, Algiers", "lat": 36.7432, "lng": 3.0580 }
-      ],
-      "impact": {
-        "totalItemsRecycled": 98, "co2SavedKg": 21.6, "waterSavedLiters": 295,
-        "energySavedKwh": 74, "ranking": 6, "treesEquivalent": 1.4
-      },
-      "badges": ["eco_starter", "recycling_hero", "75_pickups"],
-      "createdAt": "2024-07-05T10:30:00Z", "lastActive": "2025-12-27T21:00:00Z"
-    },
-    {
-      "id": 8,
-      "name": "Bilal Messaoudi",
-      "email": "bilal@example.com",
-      "password": "password123",
-      "phone": "+213660000008",
-      "profilePic": "https://i.pravatar.cc/150?img=8",
-      "address": "Sidi M'Hamed, Algiers",
-      "totalPoints": 175,
-      "bins": [16],
-      "pickups": [19, 20],
-      "locations": [
-        { "id": 10, "label": "Home", "address": "Sidi M'Hamed, Algiers", "lat": 36.7481, "lng": 3.0611 }
-      ],
-      "impact": {
-        "totalItemsRecycled": 54, "co2SavedKg": 11.9, "waterSavedLiters": 161,
-        "energySavedKwh": 41, "ranking": 14, "treesEquivalent": 0.8
-      },
-      "badges": ["eco_starter", "25_pickups"],
-      "createdAt": "2024-10-12T09:00:00Z", "lastActive": "2025-12-27T14:00:00Z"
-    },
-    {
-      "id": 9,
-      "name": "Lyna Bensalem",
-      "email": "lyna@example.com",
-      "password": "password123",
-      "phone": "+213660000009",
-      "profilePic": "https://i.pravatar.cc/150?img=9",
-      "address": "Draria, Algiers",
-      "totalPoints": 390,
-      "bins": [17, 18],
-      "pickups": [21, 22, 23],
-      "locations": [
-        { "id": 11, "label": "Home", "address": "Draria, Algiers", "lat": 36.7258, "lng": 2.9980 },
-        { "id": 12, "label": "Gym", "address": "Birkhadem, Algiers", "lat": 36.7160, "lng": 3.0450 }
-      ],
-      "impact": {
-        "totalItemsRecycled": 128, "co2SavedKg": 28.1, "waterSavedLiters": 383,
-        "energySavedKwh": 97, "ranking": 4, "treesEquivalent": 1.9
-      },
-      "badges": ["eco_warrior", "100_pickups"],
-      "createdAt": "2024-06-28T12:00:00Z", "lastActive": "2025-12-28T01:00:00Z"
-    },
-    {
-      "id": 10,
-      "name": "Riad Ouled Ali",
-      "email": "riad@example.com",
-      "password": "password123",
-      "phone": "+213660000010",
-      "profilePic": "https://i.pravatar.cc/150?img=20",
-      "address": "Ain Benian, Algiers",
-      "totalPoints": 230,
-      "bins": [19, 20],
-      "pickups": [24, 25],
-      "locations": [
-        { "id": 13, "label": "Home", "address": "Ain Benian, Algiers", "lat": 36.8003, "lng": 2.9208 }
-      ],
-      "impact": {
-        "totalItemsRecycled": 74, "co2SavedKg": 16.3, "waterSavedLiters": 222,
-        "energySavedKwh": 56, "ranking": 10, "treesEquivalent": 1.1
-      },
-      "badges": ["eco_starter", "50_pickups"],
-      "createdAt": "2024-08-30T11:00:00Z", "lastActive": "2025-12-27T19:30:00Z"
     }
   ],
 
@@ -257,90 +108,6 @@
       "totalEarnings": 32400.0, "monthlyEarnings": 4200.0, "completedPickupsCount": 165,
       "badges": ["reliable", "75kg_collector"],
       "createdAt": "2024-05-20T09:30:00Z", "lastActive": "2025-12-28T03:10:00Z"
-    },
-    {
-      "id": 12,
-      "name": "Nabil Cherif",
-      "email": "nabil.picker@example.com",
-      "password": "picker123",
-      "phone": "+213660000012",
-      "profilePic": "https://i.pravatar.cc/150?img=12",
-      "vehicleType": "Van",
-      "vehiclePlate": "16-11223-16",
-      "status": "offline",
-      "rating": 4.3,
-      "totalReviews": 67,
-      "activePickups": [],
-      "completedPickups": [],
-      "cancelledPickups": [],
-      "pickerLocation": { "lat": 36.7500, "lng": 3.0400, "label": "Central Algiers", "lastUpdated": "2025-12-27T19:00:00Z" },
-      "workingHours": { "start": "09:00", "end": "19:00" },
-      "totalEarnings": 21800.0, "monthlyEarnings": 2900.0, "completedPickupsCount": 112,
-      "badges": ["newcomer", "50_pickups"],
-      "createdAt": "2024-08-15T10:00:00Z", "lastActive": "2025-12-27T19:00:00Z"
-    },
-    {
-      "id": 13,
-      "name": "Hamza Djebbari",
-      "email": "hamza.picker@example.com",
-      "password": "picker123",
-      "phone": "+213660000013",
-      "profilePic": "https://i.pravatar.cc/150?img=13",
-      "vehicleType": "Truck",
-      "vehiclePlate": "16-33445-16",
-      "status": "active",
-      "rating": 4.6,
-      "totalReviews": 112,
-      "activePickups": [14, 21],
-      "completedPickups": [15, 16],
-      "cancelledPickups": [],
-      "pickerLocation": { "lat": 36.7656, "lng": 2.9596, "label": "Cheraga Zone", "lastUpdated": "2025-12-28T03:00:00Z" },
-      "workingHours": { "start": "07:30", "end": "17:30" },
-      "totalEarnings": 38200.0, "monthlyEarnings": 4900.0, "completedPickupsCount": 195,
-      "badges": ["top_performer", "reliable", "75kg_collector"],
-      "createdAt": "2024-04-15T07:00:00Z", "lastActive": "2025-12-28T03:00:00Z"
-    },
-    {
-      "id": 14,
-      "name": "Sami Bouzid",
-      "email": "sami.picker@example.com",
-      "password": "picker123",
-      "phone": "+213660000014",
-      "profilePic": "https://i.pravatar.cc/150?img=14",
-      "vehicleType": "Motorcycle",
-      "vehiclePlate": "16-55678-16",
-      "status": "active",
-      "rating": 4.2,
-      "totalReviews": 54,
-      "activePickups": [17, 24],
-      "completedPickups": [18],
-      "cancelledPickups": [1],
-      "pickerLocation": { "lat": 36.7432, "lng": 3.0580, "label": "BMR Area", "lastUpdated": "2025-12-28T02:50:00Z" },
-      "workingHours": { "start": "10:00", "end": "20:00" },
-      "totalEarnings": 18900.0, "monthlyEarnings": 2500.0, "completedPickupsCount": 88,
-      "badges": ["newcomer", "speed_demon"],
-      "createdAt": "2024-09-01T10:00:00Z", "lastActive": "2025-12-28T02:50:00Z"
-    },
-    {
-      "id": 15,
-      "name": "Walid Mansouri",
-      "email": "walid.picker@example.com",
-      "password": "picker123",
-      "phone": "+213660000015",
-      "profilePic": "https://i.pravatar.cc/150?img=15",
-      "vehicleType": "Van",
-      "vehiclePlate": "16-99001-16",
-      "status": "active",
-      "rating": 4.8,
-      "totalReviews": 178,
-      "activePickups": [19, 22],
-      "completedPickups": [20, 23],
-      "cancelledPickups": [],
-      "pickerLocation": { "lat": 36.7258, "lng": 2.9980, "label": "Draria Zone", "lastUpdated": "2025-12-28T03:20:00Z" },
-      "workingHours": { "start": "06:00", "end": "16:00" },
-      "totalEarnings": 52300.0, "monthlyEarnings": 6400.0, "completedPickupsCount": 275,
-      "badges": ["top_performer", "100kg_collector", "speed_demon", "reliable"],
-      "createdAt": "2024-02-18T06:00:00Z", "lastActive": "2025-12-28T03:20:00Z"
     }
   ],
 
@@ -393,97 +160,6 @@
       "location": { "lat": 36.7620, "lng": 3.0380, "address": "El Biar, Algiers" },
       "qrCode": "BIN-PAPER-007", "lastEmptied": "2025-12-16T10:30:00Z",
       "lastUpdated": "2025-12-28T01:30:00Z", "installDate": "2024-05-10T09:00:00Z"
-    },
-    {
-      "id": 8, "userId": 4, "type": "plastic", "capacityKg": 50, "currentWeightKg": 45,
-      "fillPercent": 90, "status": "ready_for_pickup",
-      "location": { "lat": 36.7590, "lng": 3.0450, "address": "Hydra, Algiers" },
-      "qrCode": "BIN-PLASTIC-008", "lastEmptied": "2025-12-19T12:00:00Z",
-      "lastUpdated": "2025-12-27T23:45:00Z", "installDate": "2024-07-22T11:15:00Z"
-    },
-    {
-      "id": 9, "userId": 4, "type": "glass", "capacityKg": 40, "currentWeightKg": 32,
-      "fillPercent": 80, "status": "ready_for_pickup",
-      "location": { "lat": 36.7590, "lng": 3.0450, "address": "Hydra, Algiers" },
-      "qrCode": "BIN-GLASS-009", "lastEmptied": "2025-12-21T14:15:00Z",
-      "lastUpdated": "2025-12-27T23:30:00Z", "installDate": "2024-07-22T11:15:00Z"
-    },
-    {
-      "id": 10, "userId": 5, "type": "paper", "capacityKg": 60, "currentWeightKg": 35,
-      "fillPercent": 58, "status": "almost_ready",
-      "location": { "lat": 36.7550, "lng": 3.0580, "address": "Kouba, Algiers" },
-      "qrCode": "BIN-PAPER-010", "lastEmptied": "2025-12-24T11:00:00Z",
-      "lastUpdated": "2025-12-27T22:00:00Z", "installDate": "2024-09-18T16:00:00Z"
-    },
-    {
-      "id": 11, "userId": 6, "type": "plastic", "capacityKg": 50, "currentWeightKg": 48,
-      "fillPercent": 96, "status": "ready_for_pickup",
-      "location": { "lat": 36.7656, "lng": 2.9596, "address": "Cheraga, Algiers" },
-      "qrCode": "BIN-PLASTIC-011", "lastEmptied": "2025-12-18T09:00:00Z",
-      "lastUpdated": "2025-12-28T03:50:00Z", "installDate": "2024-04-01T08:00:00Z"
-    },
-    {
-      "id": 12, "userId": 6, "type": "metal", "capacityKg": 30, "currentWeightKg": 27,
-      "fillPercent": 90, "status": "ready_for_pickup",
-      "location": { "lat": 36.7656, "lng": 2.9596, "address": "Cheraga, Algiers" },
-      "qrCode": "BIN-METAL-012", "lastEmptied": "2025-12-19T10:00:00Z",
-      "lastUpdated": "2025-12-28T03:45:00Z", "installDate": "2024-04-01T08:00:00Z"
-    },
-    {
-      "id": 13, "userId": 6, "type": "glass", "capacityKg": 40, "currentWeightKg": 22,
-      "fillPercent": 55, "status": "almost_ready",
-      "location": { "lat": 36.7618, "lng": 2.9867, "address": "Dely Ibrahim, Algiers" },
-      "qrCode": "BIN-GLASS-013", "lastEmptied": "2025-12-25T08:00:00Z",
-      "lastUpdated": "2025-12-28T03:30:00Z", "installDate": "2024-04-10T08:00:00Z"
-    },
-    {
-      "id": 14, "userId": 7, "type": "plastic", "capacityKg": 50, "currentWeightKg": 41,
-      "fillPercent": 82, "status": "ready_for_pickup",
-      "location": { "lat": 36.7432, "lng": 3.0580, "address": "Bir Mourad Rais, Algiers" },
-      "qrCode": "BIN-PLASTIC-014", "lastEmptied": "2025-12-21T11:00:00Z",
-      "lastUpdated": "2025-12-28T01:15:00Z", "installDate": "2024-07-05T10:30:00Z"
-    },
-    {
-      "id": 15, "userId": 7, "type": "paper", "capacityKg": 60, "currentWeightKg": 18,
-      "fillPercent": 30, "status": "not_ready",
-      "location": { "lat": 36.7432, "lng": 3.0580, "address": "Bir Mourad Rais, Algiers" },
-      "qrCode": "BIN-PAPER-015", "lastEmptied": "2025-12-27T10:00:00Z",
-      "lastUpdated": "2025-12-28T01:00:00Z", "installDate": "2024-07-05T10:30:00Z"
-    },
-    {
-      "id": 16, "userId": 8, "type": "plastic", "capacityKg": 50, "currentWeightKg": 30,
-      "fillPercent": 60, "status": "almost_ready",
-      "location": { "lat": 36.7481, "lng": 3.0611, "address": "Sidi M'Hamed, Algiers" },
-      "qrCode": "BIN-PLASTIC-016", "lastEmptied": "2025-12-25T14:00:00Z",
-      "lastUpdated": "2025-12-27T20:00:00Z", "installDate": "2024-10-12T09:00:00Z"
-    },
-    {
-      "id": 17, "userId": 9, "type": "glass", "capacityKg": 40, "currentWeightKg": 37,
-      "fillPercent": 92, "status": "ready_for_pickup",
-      "location": { "lat": 36.7258, "lng": 2.9980, "address": "Draria, Algiers" },
-      "qrCode": "BIN-GLASS-017", "lastEmptied": "2025-12-20T13:00:00Z",
-      "lastUpdated": "2025-12-28T02:00:00Z", "installDate": "2024-06-28T12:00:00Z"
-    },
-    {
-      "id": 18, "userId": 9, "type": "metal", "capacityKg": 30, "currentWeightKg": 28,
-      "fillPercent": 93, "status": "ready_for_pickup",
-      "location": { "lat": 36.7258, "lng": 2.9980, "address": "Draria, Algiers" },
-      "qrCode": "BIN-METAL-018", "lastEmptied": "2025-12-19T16:00:00Z",
-      "lastUpdated": "2025-12-28T01:45:00Z", "installDate": "2024-06-28T12:00:00Z"
-    },
-    {
-      "id": 19, "userId": 10, "type": "plastic", "capacityKg": 50, "currentWeightKg": 43,
-      "fillPercent": 86, "status": "ready_for_pickup",
-      "location": { "lat": 36.8003, "lng": 2.9208, "address": "Ain Benian, Algiers" },
-      "qrCode": "BIN-PLASTIC-019", "lastEmptied": "2025-12-21T09:00:00Z",
-      "lastUpdated": "2025-12-27T23:00:00Z", "installDate": "2024-08-30T11:00:00Z"
-    },
-    {
-      "id": 20, "userId": 10, "type": "paper", "capacityKg": 60, "currentWeightKg": 20,
-      "fillPercent": 33, "status": "not_ready",
-      "location": { "lat": 36.8003, "lng": 2.9208, "address": "Ain Benian, Algiers" },
-      "qrCode": "BIN-PAPER-020", "lastEmptied": "2025-12-27T08:00:00Z",
-      "lastUpdated": "2025-12-27T22:30:00Z", "installDate": "2024-08-30T11:00:00Z"
     }
   ],
 
@@ -516,219 +192,6 @@
       "pickupLocation": { "lat": 36.7529, "lng": 3.042 },
       "notes": "Perfect pickup", "rating": 5, "review": "Very professional and on time!",
       "pointsAwarded": 50, "cancellationReason": null
-    },
-    {
-      "id": 4, "userId": 2, "binId": 4, "pickerId": 0, "status": "scheduled",
-      "requestDate": "2025-12-27T20:00:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "09:00:00",
-      "pickupDate": null, "completionDate": null, "binType": "plastic",
-      "estimatedWeight": 47.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-004-2025-12-28", "location": "Bab El Oued, Algiers",
-      "pickupLocation": { "lat": 36.7680, "lng": 3.0510 },
-      "notes": "Ring the doorbell twice", "rating": null, "review": null,
-      "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 5, "userId": 2, "binId": 5, "pickerId": 11, "status": "completed",
-      "requestDate": "2025-12-19T10:00:00Z", "scheduledDate": "2025-12-19", "scheduledTime": "15:00:00",
-      "pickupDate": "2025-12-19T15:20:00Z", "completionDate": "2025-12-19T15:40:00Z", "binType": "metal",
-      "estimatedWeight": 20.0, "actualWeight": 22.0, "weightVerified": true,
-      "qrCode": "PICKUP-005-2025-12-19", "location": "Bab El Oued, Algiers",
-      "pickupLocation": { "lat": 36.7680, "lng": 3.0510 },
-      "notes": null, "rating": 4, "review": "Good service",
-      "pointsAwarded": 25, "cancellationReason": null
-    },
-    {
-      "id": 6, "userId": 3, "binId": 6, "pickerId": 0, "status": "pending",
-      "requestDate": "2025-12-28T02:30:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "13:00:00",
-      "pickupDate": null, "completionDate": null, "binType": "glass",
-      "estimatedWeight": 38.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-006-2025-12-28", "location": "El Biar, Algiers",
-      "pickupLocation": { "lat": 36.7620, "lng": 3.0380 },
-      "notes": null, "rating": null, "review": null, "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 7, "userId": 3, "binId": 7, "pickerId": 0, "status": "pending",
-      "requestDate": "2025-12-28T02:35:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "13:30:00",
-      "pickupDate": null, "completionDate": null, "binType": "paper",
-      "estimatedWeight": 52.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-007-2025-12-28", "location": "El Biar, Algiers",
-      "pickupLocation": { "lat": 36.7620, "lng": 3.0380 },
-      "notes": "Both bins at same time please", "rating": null, "review": null,
-      "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 8, "userId": 3, "binId": 6, "pickerId": 10, "status": "completed",
-      "requestDate": "2025-12-17T09:00:00Z", "scheduledDate": "2025-12-17", "scheduledTime": "13:00:00",
-      "pickupDate": "2025-12-17T13:10:00Z", "completionDate": "2025-12-17T13:35:00Z", "binType": "glass",
-      "estimatedWeight": 35.0, "actualWeight": 36.5, "weightVerified": true,
-      "qrCode": "PICKUP-008-2025-12-17", "location": "El Biar, Algiers",
-      "pickupLocation": { "lat": 36.7620, "lng": 3.0380 },
-      "notes": null, "rating": 5, "review": "Excellent service as always!",
-      "pointsAwarded": 40, "cancellationReason": null
-    },
-    {
-      "id": 9, "userId": 4, "binId": 8, "pickerId": 11, "status": "scheduled",
-      "requestDate": "2025-12-27T23:00:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "10:30:00",
-      "pickupDate": null, "completionDate": null, "binType": "plastic",
-      "estimatedWeight": 45.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-009-2025-12-28", "location": "Hydra, Algiers",
-      "pickupLocation": { "lat": 36.7590, "lng": 3.0450 },
-      "notes": null, "rating": null, "review": null, "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 10, "userId": 4, "binId": 9, "pickerId": 11, "status": "completed",
-      "requestDate": "2025-12-21T10:00:00Z", "scheduledDate": "2025-12-21", "scheduledTime": "14:00:00",
-      "pickupDate": "2025-12-21T14:10:00Z", "completionDate": "2025-12-21T14:30:00Z", "binType": "glass",
-      "estimatedWeight": 28.0, "actualWeight": 30.0, "weightVerified": true,
-      "qrCode": "PICKUP-010-2025-12-21", "location": "Hydra, Algiers",
-      "pickupLocation": { "lat": 36.7590, "lng": 3.0450 },
-      "notes": null, "rating": 4, "review": "On time and efficient",
-      "pointsAwarded": 32, "cancellationReason": null
-    },
-    {
-      "id": 11, "userId": 5, "binId": 10, "pickerId": 0, "status": "pending",
-      "requestDate": "2025-12-28T01:00:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "15:00:00",
-      "pickupDate": null, "completionDate": null, "binType": "paper",
-      "estimatedWeight": 35.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-011-2025-12-28", "location": "Kouba, Algiers",
-      "pickupLocation": { "lat": 36.7550, "lng": 3.0580 },
-      "notes": null, "rating": null, "review": null, "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 12, "userId": 5, "binId": 10, "pickerId": 12, "status": "completed",
-      "requestDate": "2025-12-24T08:00:00Z", "scheduledDate": "2025-12-24", "scheduledTime": "11:00:00",
-      "pickupDate": "2025-12-24T11:15:00Z", "completionDate": "2025-12-24T11:40:00Z", "binType": "paper",
-      "estimatedWeight": 38.0, "actualWeight": 40.0, "weightVerified": true,
-      "qrCode": "PICKUP-012-2025-12-24", "location": "Kouba, Algiers",
-      "pickupLocation": { "lat": 36.7550, "lng": 3.0580 },
-      "notes": null, "rating": 5, "review": "Great service!",
-      "pointsAwarded": 42, "cancellationReason": null
-    },
-    {
-      "id": 13, "userId": 1, "binId": 2, "pickerId": 11, "status": "confirmed",
-      "requestDate": "2025-12-28T01:30:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "14:30:00",
-      "pickupDate": null, "completionDate": null, "binType": "glass",
-      "estimatedWeight": 28.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-013-2025-12-28", "location": "Ben Aknoun, Algiers",
-      "pickupLocation": { "lat": 36.7545, "lng": 3.06 },
-      "notes": null, "rating": null, "review": null, "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 14, "userId": 6, "binId": 11, "pickerId": 13, "status": "confirmed",
-      "requestDate": "2025-12-28T03:00:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "09:30:00",
-      "pickupDate": null, "completionDate": null, "binType": "plastic",
-      "estimatedWeight": 48.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-014-2025-12-28", "location": "Cheraga, Algiers",
-      "pickupLocation": { "lat": 36.7656, "lng": 2.9596 },
-      "notes": "Leave at the gate", "rating": null, "review": null,
-      "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 15, "userId": 6, "binId": 12, "pickerId": 13, "status": "completed",
-      "requestDate": "2025-12-22T10:00:00Z", "scheduledDate": "2025-12-22", "scheduledTime": "11:00:00",
-      "pickupDate": "2025-12-22T11:10:00Z", "completionDate": "2025-12-22T11:35:00Z", "binType": "metal",
-      "estimatedWeight": 24.0, "actualWeight": 25.5, "weightVerified": true,
-      "qrCode": "PICKUP-015-2025-12-22", "location": "Cheraga, Algiers",
-      "pickupLocation": { "lat": 36.7656, "lng": 2.9596 },
-      "notes": null, "rating": 5, "review": "Super fast and friendly!",
-      "pointsAwarded": 28, "cancellationReason": null
-    },
-    {
-      "id": 16, "userId": 6, "binId": 13, "pickerId": 13, "status": "completed",
-      "requestDate": "2025-12-15T08:00:00Z", "scheduledDate": "2025-12-15", "scheduledTime": "10:00:00",
-      "pickupDate": "2025-12-15T10:05:00Z", "completionDate": "2025-12-15T10:30:00Z", "binType": "glass",
-      "estimatedWeight": 33.0, "actualWeight": 34.0, "weightVerified": true,
-      "qrCode": "PICKUP-016-2025-12-15", "location": "Dely Ibrahim, Algiers",
-      "pickupLocation": { "lat": 36.7618, "lng": 2.9867 },
-      "notes": null, "rating": 4, "review": "Good and timely",
-      "pointsAwarded": 38, "cancellationReason": null
-    },
-    {
-      "id": 17, "userId": 7, "binId": 14, "pickerId": 14, "status": "confirmed",
-      "requestDate": "2025-12-28T01:00:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "11:30:00",
-      "pickupDate": null, "completionDate": null, "binType": "plastic",
-      "estimatedWeight": 41.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-017-2025-12-28", "location": "Bir Mourad Rais, Algiers",
-      "pickupLocation": { "lat": 36.7432, "lng": 3.0580 },
-      "notes": null, "rating": null, "review": null, "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 18, "userId": 7, "binId": 14, "pickerId": 14, "status": "completed",
-      "requestDate": "2025-12-18T09:00:00Z", "scheduledDate": "2025-12-18", "scheduledTime": "14:00:00",
-      "pickupDate": "2025-12-18T14:20:00Z", "completionDate": "2025-12-18T14:50:00Z", "binType": "plastic",
-      "estimatedWeight": 39.0, "actualWeight": 41.0, "weightVerified": true,
-      "qrCode": "PICKUP-018-2025-12-18", "location": "Bir Mourad Rais, Algiers",
-      "pickupLocation": { "lat": 36.7432, "lng": 3.0580 },
-      "notes": null, "rating": 4, "review": "Reliable and punctual",
-      "pointsAwarded": 44, "cancellationReason": null
-    },
-    {
-      "id": 19, "userId": 8, "binId": 16, "pickerId": 15, "status": "scheduled",
-      "requestDate": "2025-12-27T19:00:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "10:00:00",
-      "pickupDate": null, "completionDate": null, "binType": "plastic",
-      "estimatedWeight": 30.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-019-2025-12-28", "location": "Sidi M'Hamed, Algiers",
-      "pickupLocation": { "lat": 36.7481, "lng": 3.0611 },
-      "notes": "Buzz apartment 4B", "rating": null, "review": null,
-      "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 20, "userId": 8, "binId": 16, "pickerId": 15, "status": "completed",
-      "requestDate": "2025-12-20T07:00:00Z", "scheduledDate": "2025-12-20", "scheduledTime": "09:00:00",
-      "pickupDate": "2025-12-20T09:10:00Z", "completionDate": "2025-12-20T09:35:00Z", "binType": "plastic",
-      "estimatedWeight": 28.0, "actualWeight": 29.5, "weightVerified": true,
-      "qrCode": "PICKUP-020-2025-12-20", "location": "Sidi M'Hamed, Algiers",
-      "pickupLocation": { "lat": 36.7481, "lng": 3.0611 },
-      "notes": null, "rating": 5, "review": "Very quick and professional!",
-      "pointsAwarded": 31, "cancellationReason": null
-    },
-    {
-      "id": 21, "userId": 9, "binId": 17, "pickerId": 13, "status": "confirmed",
-      "requestDate": "2025-12-28T01:45:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "12:00:00",
-      "pickupDate": null, "completionDate": null, "binType": "glass",
-      "estimatedWeight": 37.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-021-2025-12-28", "location": "Draria, Algiers",
-      "pickupLocation": { "lat": 36.7258, "lng": 2.9980 },
-      "notes": null, "rating": null, "review": null, "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 22, "userId": 9, "binId": 18, "pickerId": 15, "status": "scheduled",
-      "requestDate": "2025-12-28T02:00:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "12:30:00",
-      "pickupDate": null, "completionDate": null, "binType": "metal",
-      "estimatedWeight": 28.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-022-2025-12-28", "location": "Draria, Algiers",
-      "pickupLocation": { "lat": 36.7258, "lng": 2.9980 },
-      "notes": null, "rating": null, "review": null, "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 23, "userId": 9, "binId": 17, "pickerId": 15, "status": "completed",
-      "requestDate": "2025-12-19T08:30:00Z", "scheduledDate": "2025-12-19", "scheduledTime": "10:00:00",
-      "pickupDate": "2025-12-19T10:10:00Z", "completionDate": "2025-12-19T10:40:00Z", "binType": "glass",
-      "estimatedWeight": 35.0, "actualWeight": 36.0, "weightVerified": true,
-      "qrCode": "PICKUP-023-2025-12-19", "location": "Draria, Algiers",
-      "pickupLocation": { "lat": 36.7258, "lng": 2.9980 },
-      "notes": null, "rating": 5, "review": "Always on time. Best picker!",
-      "pointsAwarded": 39, "cancellationReason": null
-    },
-    {
-      "id": 24, "userId": 10, "binId": 19, "pickerId": 14, "status": "confirmed",
-      "requestDate": "2025-12-27T22:00:00Z", "scheduledDate": "2025-12-28", "scheduledTime": "09:00:00",
-      "pickupDate": null, "completionDate": null, "binType": "plastic",
-      "estimatedWeight": 43.0, "actualWeight": null, "weightVerified": false,
-      "qrCode": "PICKUP-024-2025-12-28", "location": "Ain Benian, Algiers",
-      "pickupLocation": { "lat": 36.8003, "lng": 2.9208 },
-      "notes": "Big green gate", "rating": null, "review": null,
-      "pointsAwarded": null, "cancellationReason": null
-    },
-    {
-      "id": 25, "userId": 10, "binId": 19, "pickerId": 15, "status": "completed",
-      "requestDate": "2025-12-22T09:00:00Z", "scheduledDate": "2025-12-22", "scheduledTime": "08:30:00",
-      "pickupDate": "2025-12-22T08:45:00Z", "completionDate": "2025-12-22T09:10:00Z", "binType": "plastic",
-      "estimatedWeight": 40.0, "actualWeight": 42.0, "weightVerified": true,
-      "qrCode": "PICKUP-025-2025-12-22", "location": "Ain Benian, Algiers",
-      "pickupLocation": { "lat": 36.8003, "lng": 2.9208 },
-      "notes": null, "rating": 4, "review": "Efficient, arrived early!",
-      "pointsAwarded": 45, "cancellationReason": null
     }
   ],
 
@@ -736,36 +199,7 @@
     { "id": 1, "userId": 1, "type": "pickup_completed", "points": 50, "source": "Pickup #3 - Paper collection", "description": "Recycled 47.5kg of paper", "date": "2025-12-20T14:45:00Z" },
     { "id": 2, "userId": 1, "type": "badge_earned", "points": 100, "source": "Badge: 100 Pickups", "description": "Completed 100 recycling pickups", "date": "2025-12-15T10:00:00Z" },
     { "id": 3, "userId": 1, "type": "weekly_bonus", "points": 50, "source": "Weekly Activity Bonus", "description": "Active recycling this week", "date": "2025-12-23T00:00:00Z" },
-    { "id": 4, "userId": 2, "type": "pickup_completed", "points": 25, "source": "Pickup #5 - Metal collection", "description": "Recycled 22kg of metal", "date": "2025-12-19T15:40:00Z" },
-    { "id": 5, "userId": 3, "type": "pickup_completed", "points": 40, "source": "Pickup #8 - Glass collection", "description": "Recycled 36.5kg of glass", "date": "2025-12-17T13:35:00Z" },
-    { "id": 6, "userId": 3, "type": "badge_earned", "points": 150, "source": "Badge: Eco Warrior", "description": "Reached top 3 in rankings", "date": "2025-12-10T12:00:00Z" },
-    { "id": 7, "userId": 4, "type": "pickup_completed", "points": 32, "source": "Pickup #10 - Glass collection", "description": "Recycled 30kg of glass", "date": "2025-12-21T14:30:00Z" },
-    { "id": 8, "userId": 5, "type": "pickup_completed", "points": 42, "source": "Pickup #12 - Paper collection", "description": "Recycled 40kg of paper", "date": "2025-12-24T11:40:00Z" },
-    { "id": 9, "userId": 6, "type": "pickup_completed", "points": 28, "source": "Pickup #15 - Metal collection", "description": "Recycled 25.5kg of metal", "date": "2025-12-22T11:35:00Z" },
-    { "id": 10, "userId": 6, "type": "pickup_completed", "points": 38, "source": "Pickup #16 - Glass collection", "description": "Recycled 34kg of glass", "date": "2025-12-15T10:30:00Z" },
-    { "id": 11, "userId": 6, "type": "badge_earned", "points": 200, "source": "Badge: Champion", "description": "Ranked #1 in city leaderboard", "date": "2025-12-01T09:00:00Z" },
-    { "id": 12, "userId": 6, "type": "weekly_bonus", "points": 75, "source": "Weekly Activity Bonus", "description": "Top recycler this week", "date": "2025-12-23T00:00:00Z" },
-    { "id": 13, "userId": 7, "type": "pickup_completed", "points": 44, "source": "Pickup #18 - Plastic collection", "description": "Recycled 41kg of plastic", "date": "2025-12-18T14:50:00Z" },
-    { "id": 14, "userId": 7, "type": "weekly_bonus", "points": 30, "source": "Weekly Activity Bonus", "description": "Active recycling this week", "date": "2025-12-23T00:00:00Z" },
-    { "id": 15, "userId": 8, "type": "pickup_completed", "points": 31, "source": "Pickup #20 - Plastic collection", "description": "Recycled 29.5kg of plastic", "date": "2025-12-20T09:35:00Z" },
-    { "id": 16, "userId": 9, "type": "pickup_completed", "points": 39, "source": "Pickup #23 - Glass collection", "description": "Recycled 36kg of glass", "date": "2025-12-19T10:40:00Z" },
-    { "id": 17, "userId": 9, "type": "badge_earned", "points": 100, "source": "Badge: 100 Pickups", "description": "Completed 100 recycling pickups", "date": "2025-12-05T14:00:00Z" },
-    { "id": 18, "userId": 10, "type": "pickup_completed", "points": 45, "source": "Pickup #25 - Plastic collection", "description": "Recycled 42kg of plastic", "date": "2025-12-22T09:10:00Z" },
-    { "id": 19, "userId": 10, "type": "referral_bonus", "points": 50, "source": "Referral Bonus", "description": "Invited a friend to join RecycleApp", "date": "2025-12-10T11:00:00Z" }
-  ],
-
-  "reviews": [
-    { "id": 1, "pickupId": 3, "userId": 1, "pickerId": 10, "rating": 5, "comment": "Very professional and on time!", "date": "2025-12-20T15:00:00Z" },
-    { "id": 2, "pickupId": 5, "userId": 2, "pickerId": 11, "rating": 4, "comment": "Good service", "date": "2025-12-19T16:00:00Z" },
-    { "id": 3, "pickupId": 8, "userId": 3, "pickerId": 10, "rating": 5, "comment": "Excellent service as always!", "date": "2025-12-17T14:00:00Z" },
-    { "id": 4, "pickupId": 10, "userId": 4, "pickerId": 11, "rating": 4, "comment": "On time and efficient", "date": "2025-12-21T15:00:00Z" },
-    { "id": 5, "pickupId": 12, "userId": 5, "pickerId": 12, "rating": 5, "comment": "Great service!", "date": "2025-12-24T12:00:00Z" },
-    { "id": 6, "pickupId": 15, "userId": 6, "pickerId": 13, "rating": 5, "comment": "Super fast and friendly!", "date": "2025-12-22T12:00:00Z" },
-    { "id": 7, "pickupId": 16, "userId": 6, "pickerId": 13, "rating": 4, "comment": "Good and timely", "date": "2025-12-15T11:00:00Z" },
-    { "id": 8, "pickupId": 18, "userId": 7, "pickerId": 14, "rating": 4, "comment": "Reliable and punctual", "date": "2025-12-18T15:00:00Z" },
-    { "id": 9, "pickupId": 20, "userId": 8, "pickerId": 15, "rating": 5, "comment": "Very quick and professional!", "date": "2025-12-20T10:00:00Z" },
-    { "id": 10, "pickupId": 23, "userId": 9, "pickerId": 15, "rating": 5, "comment": "Always on time. Best picker!", "date": "2025-12-19T11:00:00Z" },
-    { "id": 11, "pickupId": 25, "userId": 10, "pickerId": 15, "rating": 4, "comment": "Efficient, arrived early!", "date": "2025-12-22T09:30:00Z" }
+    { "id": 4, "userId": 2, "type": "pickup_completed", "points": 25, "source": "Pickup #5 - Metal collection", "description": "Recycled 22kg of metal", "date": "2025-12-19T15:40:00Z" }
   ],
 
   "coupons": [
@@ -792,86 +226,26 @@
       "commercialMark": "Café Vert", "category": "food",
       "validFrom": "2025-01-01T00:00:00Z", "validUntil": "2025-06-30T23:59:59Z",
       "usageLimit": 1, "usedCount": 0, "active": true
-    },
-    {
-      "id": 4, "code": "SUPERMART5", "title": "5% Off at Supermart",
-      "description": "Get 5% discount on your grocery bill at Supermart", "pointsRequired": 80,
-      "discountType": "percentage", "discountValue": 5, "couponType": "partner_offer",
-      "commercialMark": "Supermart DZ", "category": "grocery",
-      "validFrom": "2025-06-01T00:00:00Z", "validUntil": "2026-05-31T23:59:59Z",
-      "usageLimit": 2, "usedCount": 0, "active": true
-    },
-    {
-      "id": 5, "code": "FREESHIP", "title": "Free Delivery",
-      "description": "Free delivery on your next online order", "pointsRequired": 60,
-      "discountType": "fixed", "discountValue": 0, "couponType": "delivery_reward",
-      "commercialMark": "ShopDZ", "category": "e-commerce",
-      "validFrom": "2025-07-01T00:00:00Z", "validUntil": "2026-06-30T23:59:59Z",
-      "usageLimit": 1, "usedCount": 0, "active": true
-    },
-    {
-      "id": 6, "code": "ECOBAG", "title": "Free Reusable Bag",
-      "description": "Claim a free reusable shopping bag at GreenStore", "pointsRequired": 120,
-      "discountType": "percentage", "discountValue": 100, "couponType": "eco_reward",
-      "commercialMark": "GreenStore", "category": "shopping",
-      "validFrom": "2025-01-01T00:00:00Z", "validUntil": "2026-12-31T23:59:59Z",
-      "usageLimit": 1, "usedCount": 0, "active": true
     }
   ],
 
-  "locations": [
-    { "id": 1, "userId": 1, "label": "Home", "address": "Rue Didouche Mourad, Algiers", "lat": 36.7529, "lng": 3.042, "isDefault": true, "createdAt": "2024-06-15T10:00:00Z" },
-    { "id": 2, "userId": 1, "label": "Work", "address": "Ben Aknoun, Algiers", "lat": 36.7545, "lng": 3.06, "isDefault": false, "createdAt": "2024-06-20T14:30:00Z" },
-    { "id": 3, "userId": 2, "label": "Home", "address": "Bab El Oued, Algiers", "lat": 36.7680, "lng": 3.0510, "isDefault": true, "createdAt": "2024-08-20T14:30:00Z" },
-    { "id": 4, "userId": 3, "label": "Apartment", "address": "El Biar, Algiers", "lat": 36.7620, "lng": 3.0380, "isDefault": true, "createdAt": "2024-05-10T09:00:00Z" },
-    { "id": 5, "userId": 4, "label": "Villa", "address": "Hydra, Algiers", "lat": 36.7590, "lng": 3.0450, "isDefault": true, "createdAt": "2024-07-22T11:15:00Z" },
-    { "id": 6, "userId": 5, "label": "Home", "address": "Kouba, Algiers", "lat": 36.7550, "lng": 3.0580, "isDefault": true, "createdAt": "2024-09-18T16:00:00Z" },
-    { "id": 7, "userId": 6, "label": "Home", "address": "Cheraga, Algiers", "lat": 36.7656, "lng": 2.9596, "isDefault": true, "createdAt": "2024-04-01T08:00:00Z" },
-    { "id": 8, "userId": 6, "label": "Office", "address": "Dely Ibrahim, Algiers", "lat": 36.7618, "lng": 2.9867, "isDefault": false, "createdAt": "2024-04-10T09:00:00Z" },
-    { "id": 9, "userId": 7, "label": "Home", "address": "Bir Mourad Rais, Algiers", "lat": 36.7432, "lng": 3.0580, "isDefault": true, "createdAt": "2024-07-05T10:30:00Z" },
-    { "id": 10, "userId": 8, "label": "Home", "address": "Sidi M'Hamed, Algiers", "lat": 36.7481, "lng": 3.0611, "isDefault": true, "createdAt": "2024-10-12T09:00:00Z" },
-    { "id": 11, "userId": 9, "label": "Home", "address": "Draria, Algiers", "lat": 36.7258, "lng": 2.9980, "isDefault": true, "createdAt": "2024-06-28T12:00:00Z" },
-    { "id": 12, "userId": 9, "label": "Gym", "address": "Birkhadem, Algiers", "lat": 36.7160, "lng": 3.0450, "isDefault": false, "createdAt": "2024-09-01T10:00:00Z" },
-    { "id": 13, "userId": 10, "label": "Home", "address": "Ain Benian, Algiers", "lat": 36.8003, "lng": 2.9208, "isDefault": true, "createdAt": "2024-08-30T11:00:00Z" }
+  "reviews": [
+    { "id": 1, "pickupId": 3, "userId": 1, "pickerId": 10, "rating": 5, "comment": "Very professional and on time!", "date": "2025-12-20T15:00:00Z" },
+    { "id": 2, "pickupId": 5, "userId": 2, "pickerId": 11, "rating": 4, "comment": "Good service", "date": "2025-12-19T16:00:00Z" },
+    { "id": 3, "pickupId": 8, "userId": 3, "pickerId": 10, "rating": 5, "comment": "Excellent service as always!", "date": "2025-12-17T14:00:00Z" }
   ],
 
-  "pickerRoutes": {
-    "10": [
-      { "lat": 36.7709, "lng": 3.0242, "label": "Start Point" },
-      { "lat": 36.7680, "lng": 3.0280, "label": "Checkpoint 1" },
-      { "lat": 36.7650, "lng": 3.0320, "label": "Checkpoint 2" },
-      { "lat": 36.7620, "lng": 3.0360, "label": "Checkpoint 3" },
-      { "lat": 36.7590, "lng": 3.0400, "label": "Checkpoint 4" },
-      { "lat": 36.7560, "lng": 3.0440, "label": "Checkpoint 5" },
-      { "lat": 36.7529, "lng": 3.0420, "label": "Destination" }
-    ],
-    "11": [
-      { "lat": 36.7650, "lng": 3.0500, "label": "Start Point" },
-      { "lat": 36.7680, "lng": 3.0510, "label": "Pickup Location" }
-    ],
-    "12": [
-      { "lat": 36.7500, "lng": 3.0400, "label": "Start Point" },
-      { "lat": 36.7550, "lng": 3.0580, "label": "Pickup Location" }
-    ],
-    "13": [
-      { "lat": 36.7656, "lng": 2.9596, "label": "Start Point" },
-      { "lat": 36.7640, "lng": 2.9650, "label": "Checkpoint 1" },
-      { "lat": 36.7625, "lng": 2.9720, "label": "Checkpoint 2" },
-      { "lat": 36.7258, "lng": 2.9980, "label": "Draria Stop" },
-      { "lat": 36.7618, "lng": 2.9867, "label": "Dely Ibrahim Stop" }
-    ],
-    "14": [
-      { "lat": 36.7432, "lng": 3.0580, "label": "Start Point" },
-      { "lat": 36.7600, "lng": 3.0400, "label": "Checkpoint 1" },
-      { "lat": 36.8003, "lng": 2.9208, "label": "Ain Benian Stop" }
-    ],
-    "15": [
-      { "lat": 36.7258, "lng": 2.9980, "label": "Start Point" },
-      { "lat": 36.7350, "lng": 3.0100, "label": "Checkpoint 1" },
-      { "lat": 36.7481, "lng": 3.0611, "label": "Sidi M'Hamed Stop" },
-      { "lat": 36.8003, "lng": 2.9208, "label": "Ain Benian Stop" }
-    ]
-  },
+  "notifications": [
+    { "id": 1, "userId": 1, "type": "pickup_confirmed", "title": "Pickup Confirmed", "message": "Your plastic bin pickup on Dec 28 at 10:00 has been confirmed.", "read": false, "createdAt": "2025-12-28T02:05:00Z" },
+    { "id": 2, "userId": 1, "type": "pickup_completed", "title": "Pickup Completed", "message": "Your paper bin was collected. You earned 50 points!", "read": true, "createdAt": "2025-12-20T14:50:00Z" },
+    { "id": 3, "userId": 2, "type": "bin_almost_full", "title": "Bin Almost Full", "message": "Your plastic bin is 94% full. Schedule a pickup soon.", "read": false, "createdAt": "2025-12-28T02:00:00Z" }
+  ],
+
+  "leaderboard": [
+    { "rank": 1, "userId": 6, "name": "Sofiane Aouali", "profilePic": "https://i.pravatar.cc/150?img=6", "totalPoints": 615, "totalItemsRecycled": 210, "badge": "champion" },
+    { "rank": 2, "userId": 3, "name": "Amina Khelifi", "profilePic": "https://i.pravatar.cc/150?img=3", "totalPoints": 520, "totalItemsRecycled": 178, "badge": "top_3" },
+    { "rank": 3, "userId": 1, "name": "Yasmine Benali", "profilePic": "https://i.pravatar.cc/150?img=1", "totalPoints": 450, "totalItemsRecycled": 156, "badge": "eco_warrior" }
+  ],
 
   "pickerPerformance": [
     {
@@ -886,17 +260,6 @@
       "badges": ["top_performer", "100kg_collector", "speed_demon", "december_champion"]
     },
     {
-      "pickerId": 10, "month": "2025-11",
-      "plasticWeight": 48.5, "glassWeight": 35.2, "paperWeight": 29.8, "metalWeight": 16.3,
-      "totalWeight": 129.8, "totalPickups": 28, "completedPickups": 26, "cancelledPickups": 2,
-      "completionRate": 92.86, "totalEarnings": 5200.0, "baseEarnings": 4400.0,
-      "bonusEarnings": 650.0, "tipsEarnings": 150.0, "averagePickupDuration": 33,
-      "totalWorkingHours": 14.3, "averageRating": 4.6, "totalReviews": 22,
-      "fiveStarCount": 18, "fourStarCount": 3, "threeStarCount": 1, "twoStarCount": 0, "oneStarCount": 0,
-      "goalsAchieved": 2, "totalGoals": 4, "rank": 3, "totalPickers": 50,
-      "badges": ["top_performer", "100kg_collector", "speed_demon"]
-    },
-    {
       "pickerId": 11, "month": "2025-12",
       "plasticWeight": 38.2, "glassWeight": 28.5, "paperWeight": 22.8, "metalWeight": 14.2,
       "totalWeight": 103.7, "totalPickups": 24, "completedPickups": 22, "cancelledPickups": 2,
@@ -906,50 +269,6 @@
       "fiveStarCount": 14, "fourStarCount": 3, "threeStarCount": 1, "twoStarCount": 0, "oneStarCount": 0,
       "goalsAchieved": 2, "totalGoals": 3, "rank": 5, "totalPickers": 52,
       "badges": ["reliable", "75kg_collector"]
-    },
-    {
-      "pickerId": 12, "month": "2025-12",
-      "plasticWeight": 28.5, "glassWeight": 20.3, "paperWeight": 18.2, "metalWeight": 10.5,
-      "totalWeight": 77.5, "totalPickups": 18, "completedPickups": 16, "cancelledPickups": 2,
-      "completionRate": 88.89, "totalEarnings": 2900.0, "baseEarnings": 2500.0,
-      "bonusEarnings": 350.0, "tipsEarnings": 50.0, "averagePickupDuration": 38,
-      "totalWorkingHours": 10.1, "averageRating": 4.3, "totalReviews": 13,
-      "fiveStarCount": 9, "fourStarCount": 3, "threeStarCount": 1, "twoStarCount": 0, "oneStarCount": 0,
-      "goalsAchieved": 1, "totalGoals": 3, "rank": 8, "totalPickers": 52,
-      "badges": ["newcomer", "50_pickups"]
-    },
-    {
-      "pickerId": 13, "month": "2025-12",
-      "plasticWeight": 45.0, "glassWeight": 36.5, "paperWeight": 28.0, "metalWeight": 20.2,
-      "totalWeight": 129.7, "totalPickups": 28, "completedPickups": 27, "cancelledPickups": 1,
-      "completionRate": 96.43, "totalEarnings": 4900.0, "baseEarnings": 4100.0,
-      "bonusEarnings": 600.0, "tipsEarnings": 200.0, "averagePickupDuration": 30,
-      "totalWorkingHours": 14.0, "averageRating": 4.6, "totalReviews": 22,
-      "fiveStarCount": 17, "fourStarCount": 4, "threeStarCount": 1, "twoStarCount": 0, "oneStarCount": 0,
-      "goalsAchieved": 3, "totalGoals": 4, "rank": 3, "totalPickers": 52,
-      "badges": ["top_performer", "reliable", "75kg_collector"]
-    },
-    {
-      "pickerId": 14, "month": "2025-12",
-      "plasticWeight": 22.0, "glassWeight": 15.0, "paperWeight": 10.5, "metalWeight": 8.0,
-      "totalWeight": 55.5, "totalPickups": 14, "completedPickups": 12, "cancelledPickups": 2,
-      "completionRate": 85.71, "totalEarnings": 2500.0, "baseEarnings": 2100.0,
-      "bonusEarnings": 300.0, "tipsEarnings": 100.0, "averagePickupDuration": 40,
-      "totalWorkingHours": 9.3, "averageRating": 4.2, "totalReviews": 11,
-      "fiveStarCount": 7, "fourStarCount": 3, "threeStarCount": 1, "twoStarCount": 0, "oneStarCount": 0,
-      "goalsAchieved": 1, "totalGoals": 3, "rank": 10, "totalPickers": 52,
-      "badges": ["newcomer", "speed_demon"]
-    },
-    {
-      "pickerId": 15, "month": "2025-12",
-      "plasticWeight": 60.1, "glassWeight": 45.3, "paperWeight": 38.0, "metalWeight": 22.6,
-      "totalWeight": 166.0, "totalPickups": 38, "completedPickups": 38, "cancelledPickups": 0,
-      "completionRate": 100.0, "totalEarnings": 6400.0, "baseEarnings": 5300.0,
-      "bonusEarnings": 900.0, "tipsEarnings": 200.0, "averagePickupDuration": 28,
-      "totalWorkingHours": 17.7, "averageRating": 4.8, "totalReviews": 30,
-      "fiveStarCount": 26, "fourStarCount": 4, "threeStarCount": 0, "twoStarCount": 0, "oneStarCount": 0,
-      "goalsAchieved": 4, "totalGoals": 4, "rank": 1, "totalPickers": 52,
-      "badges": ["top_performer", "100kg_collector", "speed_demon", "reliable", "perfect_month"]
     }
   ],
 
@@ -957,45 +276,6 @@
     { "id": 1, "pickerId": 10, "month": "2025-12", "binType": "plastic", "targetWeight": 50.0, "currentWeight": 52.3, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "achieved", "reward": 500.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
     { "id": 2, "pickerId": 10, "month": "2025-12", "binType": "glass", "targetWeight": 35.0, "currentWeight": 38.7, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "achieved", "reward": 400.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
     { "id": 3, "pickerId": 10, "month": "2025-12", "binType": "pickups", "targetWeight": 0.0, "currentWeight": 0.0, "targetPickups": 30, "currentPickups": 30, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "achieved", "reward": 600.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 4, "pickerId": 10, "month": "2025-12", "binType": "earnings", "targetWeight": 0.0, "currentWeight": 0.0, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 6000.0, "currentEarnings": 5800.0, "status": "active", "reward": 1000.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 5, "pickerId": 11, "month": "2025-12", "binType": "plastic", "targetWeight": 40.0, "currentWeight": 38.2, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 400.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 6, "pickerId": 11, "month": "2025-12", "binType": "pickups", "targetWeight": 0.0, "currentWeight": 0.0, "targetPickups": 25, "currentPickups": 22, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 500.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 7, "pickerId": 11, "month": "2025-12", "binType": "all", "targetWeight": 100.0, "currentWeight": 103.7, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "achieved", "reward": 800.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 8, "pickerId": 12, "month": "2025-12", "binType": "paper", "targetWeight": 25.0, "currentWeight": 18.2, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 300.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 9, "pickerId": 12, "month": "2025-12", "binType": "pickups", "targetWeight": 0.0, "currentWeight": 0.0, "targetPickups": 20, "currentPickups": 16, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 400.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 10, "pickerId": 12, "month": "2025-12", "binType": "all", "targetWeight": 80.0, "currentWeight": 77.5, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 500.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 11, "pickerId": 13, "month": "2025-12", "binType": "all", "targetWeight": 120.0, "currentWeight": 129.7, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "achieved", "reward": 900.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 12, "pickerId": 13, "month": "2025-12", "binType": "pickups", "targetWeight": 0.0, "currentWeight": 0.0, "targetPickups": 25, "currentPickups": 27, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "achieved", "reward": 600.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 13, "pickerId": 13, "month": "2025-12", "binType": "earnings", "targetWeight": 0.0, "currentWeight": 0.0, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 5000.0, "currentEarnings": 4900.0, "status": "active", "reward": 700.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 14, "pickerId": 14, "month": "2025-12", "binType": "pickups", "targetWeight": 0.0, "currentWeight": 0.0, "targetPickups": 15, "currentPickups": 12, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 350.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 15, "pickerId": 14, "month": "2025-12", "binType": "all", "targetWeight": 60.0, "currentWeight": 55.5, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 450.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 16, "pickerId": 15, "month": "2025-12", "binType": "all", "targetWeight": 150.0, "currentWeight": 166.0, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "achieved", "reward": 1200.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 17, "pickerId": 15, "month": "2025-12", "binType": "pickups", "targetWeight": 0.0, "currentWeight": 0.0, "targetPickups": 35, "currentPickups": 38, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "achieved", "reward": 800.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" },
-    { "id": 18, "pickerId": 15, "month": "2025-12", "binType": "earnings", "targetWeight": 0.0, "currentWeight": 0.0, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 6000.0, "currentEarnings": 6400.0, "status": "achieved", "reward": 1000.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" }
-  ],
-
-  "notifications": [
-    { "id": 1, "userId": 1, "type": "pickup_confirmed", "title": "Pickup Confirmed", "message": "Your plastic bin pickup on Dec 28 at 10:00 has been confirmed.", "read": false, "createdAt": "2025-12-28T02:05:00Z" },
-    { "id": 2, "userId": 1, "type": "pickup_completed", "title": "Pickup Completed", "message": "Your paper bin was collected. You earned 50 points!", "read": true, "createdAt": "2025-12-20T14:50:00Z" },
-    { "id": 3, "userId": 2, "type": "bin_almost_full", "title": "Bin Almost Full", "message": "Your plastic bin is 94% full. Schedule a pickup soon.", "read": false, "createdAt": "2025-12-28T02:00:00Z" },
-    { "id": 4, "userId": 3, "type": "points_earned", "title": "Badge Unlocked!", "message": "Congratulations! You've earned the Eco Warrior badge and 150 points.", "read": true, "createdAt": "2025-12-10T12:05:00Z" },
-    { "id": 5, "userId": 4, "type": "pickup_scheduled", "title": "Pickup Scheduled", "message": "Your plastic bin pickup is scheduled for Dec 28 at 10:30.", "read": false, "createdAt": "2025-12-27T23:05:00Z" },
-    { "id": 6, "userId": 5, "type": "pickup_pending", "title": "Pickup Request Received", "message": "We're looking for an available picker for your paper bin.", "read": false, "createdAt": "2025-12-28T01:05:00Z" },
-    { "id": 7, "userId": 6, "type": "ranking_update", "title": "You're #1!", "message": "You've reached the top of the leaderboard this month. Keep it up!", "read": false, "createdAt": "2025-12-28T00:00:00Z" },
-    { "id": 8, "userId": 9, "type": "pickup_completed", "title": "Pickup Completed", "message": "Your glass bin was collected. You earned 39 points!", "read": true, "createdAt": "2025-12-19T10:45:00Z" },
-    { "id": 9, "userId": 10, "type": "referral_bonus", "title": "Referral Bonus!", "message": "You earned 50 points for inviting a friend to RecycleApp.", "read": true, "createdAt": "2025-12-10T11:05:00Z" }
-  ],
-
-  "leaderboard": [
-    { "rank": 1, "userId": 6, "name": "Sofiane Aouali", "profilePic": "https://i.pravatar.cc/150?img=6", "totalPoints": 615, "totalItemsRecycled": 210, "badge": "champion" },
-    { "rank": 2, "userId": 3, "name": "Amina Khelifi", "profilePic": "https://i.pravatar.cc/150?img=3", "totalPoints": 520, "totalItemsRecycled": 178, "badge": "top_3" },
-    { "rank": 3, "userId": 1, "name": "Yasmine Benali", "profilePic": "https://i.pravatar.cc/150?img=1", "totalPoints": 450, "totalItemsRecycled": 156, "badge": "eco_warrior" },
-    { "rank": 4, "userId": 9, "name": "Lyna Bensalem", "profilePic": "https://i.pravatar.cc/150?img=9", "totalPoints": 390, "totalItemsRecycled": 128, "badge": "eco_warrior" },
-    { "rank": 5, "userId": 4, "name": "Mohamed Saidi", "profilePic": "https://i.pravatar.cc/150?img=4", "totalPoints": 340, "totalItemsRecycled": 112, "badge": "recycling_hero" },
-    { "rank": 6, "userId": 7, "name": "Nadia Hamidi", "profilePic": "https://i.pravatar.cc/150?img=7", "totalPoints": 310, "totalItemsRecycled": 98, "badge": "recycling_hero" },
-    { "rank": 7, "userId": 2, "name": "Karim Meziani", "profilePic": "https://i.pravatar.cc/150?img=2", "totalPoints": 280, "totalItemsRecycled": 89, "badge": "eco_starter" },
-    { "rank": 8, "userId": 10, "name": "Riad Ouled Ali", "profilePic": "https://i.pravatar.cc/150?img=20", "totalPoints": 230, "totalItemsRecycled": 74, "badge": "eco_starter" },
-    { "rank": 9, "userId": 5, "name": "Fatima Boudiaf", "profilePic": "https://i.pravatar.cc/150?img=5", "totalPoints": 195, "totalItemsRecycled": 62, "badge": "eco_starter" },
-    { "rank": 10, "userId": 8, "name": "Bilal Messaoudi", "profilePic": "https://i.pravatar.cc/150?img=8", "totalPoints": 175, "totalItemsRecycled": 54, "badge": "eco_starter" }
+    { "id": 4, "pickerId": 11, "month": "2025-12", "binType": "plastic", "targetWeight": 40.0, "currentWeight": 38.2, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 400.0, "createdAt": "2025-12-01T00:00:00Z", "updatedAt": "2025-12-27T12:00:00Z" }
   ]
 }
