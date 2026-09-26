@@ -67,7 +67,6 @@
       "updatedAt": "2026-09-04T13:00:00Z"
     }
   ],
-
   "pickers": [
     {
       "id": "10",
@@ -102,7 +101,6 @@
       "activePickups": []
     }
   ],
-
   "bins": [
     {
       "id": "1", "userId": "1", "type": "PLASTIC", "capacityKg": 50, "currentWeightKg": 42,
@@ -154,7 +152,6 @@
       "createdAt": "2024-05-10T09:00:00Z", "updatedAt": "2026-09-01T01:30:00Z"
     }
   ],
-
   "pickups": [
     {
       "id": "20",
@@ -301,13 +298,11 @@
       "updatedAt": "2026-09-02T09:00:00Z"
     }
   ],
-
   "pointsHistory": [
     { "id": 1, "userId": "1", "type": "pickup_completed", "value": 214, "source": "Pickup #23 - Paper collection", "date": "2026-09-03T09:30:00Z" },
     { "id": 2, "userId": "1", "type": "badge_earned", "value": 100, "source": "Badge: Eco Warrior", "date": "2026-08-15T10:00:00Z" },
     { "id": 3, "userId": "2", "type": "pickup_completed", "value": 96, "source": "Pickup #24 - Metal collection", "date": "2026-09-01T15:40:00Z" }
   ],
-
   "coupons": [
     {
       "id": "1", "brandName": "GreenStore", "discount": "10%", "pointsCost": 100,
@@ -325,25 +320,22 @@
       "expirationDate": 1782000000000
     }
   ],
-
+  "couponRedemptions": [],
   "reviews": [
     { "id": "1", "pickupId": "23", "userId": "1", "pickerId": "10", "rating": 5, "comment": "On time and professional", "createdAt": "2026-09-03T09:30:00Z" },
     { "id": "2", "pickupId": "24", "userId": "2", "pickerId": "11", "rating": 4, "comment": "Good service", "createdAt": "2026-09-01T15:40:00Z" }
   ],
-
   "notifications": [
     { "id": "1", "userId": "1", "title": "Pickup Scheduled", "message": "Your plastic bin pickup is scheduled for Sep 5 at 10:00.", "type": "pickup_assigned", "timestamp": 1788595200000, "isRead": false },
     { "id": "2", "userId": "1", "title": "Pickup Completed", "message": "Your paper bin was collected. You earned 214 points!", "type": "system", "timestamp": 1788507000000, "isRead": true },
     { "id": "3", "userId": "10", "title": "New Pickup Available", "message": "A new plastic pickup is available near you.", "type": "pickup_assigned", "timestamp": 1788595200000, "isRead": false },
     { "id": "4", "userId": "2", "title": "Bin Almost Full", "message": "Your plastic bin is 94% full. Schedule a pickup soon.", "type": "system", "timestamp": 1788595200000, "isRead": false }
   ],
-
   "leaderboard": [
     { "userId": "3", "name": "Amina Khelifi", "profilePicUrl": "https://i.pravatar.cc/150?img=3", "totalPoints": 520, "rank": 1 },
     { "userId": "1", "name": "Yasmine Benali", "profilePicUrl": "https://i.pravatar.cc/150?img=1", "totalPoints": 450, "rank": 2 },
     { "userId": "2", "name": "Karim Meziani", "profilePicUrl": "https://i.pravatar.cc/150?img=2", "totalPoints": 280, "rank": 3 }
   ],
-
   "pickerPerformance": [
     {
       "pickerId": "10", "month": "2026-09",
@@ -379,13 +371,11 @@
       "badges": ["top_performer", "100kg_collector", "speed_demon", "december_champion"]
     }
   ],
-
   "pickerGoals": [
     { "id": 1, "pickerId": "10", "month": "2026-09", "binType": "plastic", "targetWeight": 20.0, "currentWeight": 15.5, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 300.0, "createdAt": "2026-09-01T00:00:00Z", "updatedAt": "2026-09-04T08:00:00Z" },
     { "id": 2, "pickerId": "10", "month": "2026-09", "binType": "pickups", "targetWeight": 0.0, "currentWeight": 0.0, "targetPickups": 20, "currentPickups": 3, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 600.0, "createdAt": "2026-09-01T00:00:00Z", "updatedAt": "2026-09-04T13:00:00Z" },
     { "id": 3, "pickerId": "11", "month": "2026-09", "binType": "metal", "targetWeight": 15.0, "currentWeight": 9.6, "targetPickups": 0, "currentPickups": 0, "targetEarnings": 0.0, "currentEarnings": 0.0, "status": "active", "reward": 250.0, "createdAt": "2026-09-01T00:00:00Z", "updatedAt": "2026-09-01T15:40:00Z" }
   ],
-
   "earnings": [
     {
       "id": 1, "pickerId": "10", "pickupId": "23", "amount": 321.0, "type": "pickup",
@@ -403,12 +393,10 @@
       "description": "Weekly activity bonus", "binType": null
     }
   ],
-
   "rewards": [
     { "id": "1", "userId": "1", "pickupId": "23", "type": "points", "amount": 214, "source": "pickup_completed", "createdAt": "2026-09-03T09:30:00Z" },
     { "id": "2", "userId": "2", "pickupId": "24", "type": "points", "amount": 96, "source": "pickup_completed", "createdAt": "2026-09-01T15:40:00Z" }
   ],
-
   "userBalance": [
     { "userId": "1", "totalPoints": 450, "availablePoints": 350, "totalEarningsMoney": 0 },
     { "userId": "2", "totalPoints": 280, "availablePoints": 280, "totalEarningsMoney": 0 },
